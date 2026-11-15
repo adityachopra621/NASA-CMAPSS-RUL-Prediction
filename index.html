@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2338bdf8'><path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NASA C-MAPSS RUL Telemetry & Model Benchmarking Platform</title>
+    <!-- Modern aerospace font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Tailwind CDN for robust rapid aerospace styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              tech: ['Chakra Petch', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+            },
+            colors: {
+              space: {
+                950: '#030712',
+                900: '#070d1d',
+                850: '#0b1329',
+                800: '#0f1a36',
+                700: '#1e293b',
+                600: '#334155',
+              },
+              cyan: {
+                400: '#38bdf8',
+                500: '#0ea5e9',
+                glow: '#00f2fe',
+              },
+              nasa: {
+                blue: '#0B3D91',
+                red: '#FC3D21',
+                darkred: '#b91c1c',
+                panel: 'rgba(15, 26, 54, 0.75)',
+                border: '#1e3a5f',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #040814;
+        color: #e2e8f0;
+        font-family: 'Inter', sans-serif;
+        background-image: 
+          radial-gradient(circle at 50% 0%, rgba(11, 61, 145, 0.25) 0%, transparent 60%),
+          linear-gradient(rgba(14, 165, 233, 0.03) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(14, 165, 233, 0.03) 1px, transparent 1px);
+        background-size: 100% 100%, 32px 32px, 32px 32px;
+      }
+      .telemetry-grid {
+        background: rgba(11, 19, 41, 0.7);
+        backdrop-filter: blur(8px);
+        border: 1px solid #1e3a5f;
+      }
+      .telemetry-grid:hover {
+        border-color: #38bdf8;
+      }
+      .aerospace-glow {
+        box-shadow: 0 0 20px rgba(56, 189, 248, 0.15);
+      }
+      .red-accent-glow {
+        box-shadow: 0 0 15px rgba(252, 61, 33, 0.25);
+      }
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #070d1d;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #1e3a5f;
+        border-radius: 3px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #38bdf8;
+      }
+    </style>
+  </head>
+  <body class="min-h-screen text-slate-100 overflow-x-hidden">
+    <div id="root"></div>
+    <script type="module" src="/frontend/src/main.jsx"></script>
+  </body>
+</html>

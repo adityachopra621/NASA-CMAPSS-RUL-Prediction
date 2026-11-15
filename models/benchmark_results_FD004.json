@@ -1,0 +1,7508 @@
+{
+  "subset": "FD004",
+  "models": [
+    {
+      "model": "CNN",
+      "subset": "FD004",
+      "rmse": 37.79,
+      "mae": 30.61,
+      "r2": 0.5195,
+      "phm_score": 21998.2,
+      "training_time_sec": 690.8,
+      "artifact_path": "models\\cnn_FD004.keras"
+    },
+    {
+      "model": "CNN-LSTM",
+      "subset": "FD004",
+      "rmse": 32.88,
+      "mae": 24.31,
+      "r2": 0.6363,
+      "phm_score": 11670.5,
+      "training_time_sec": 1360.2,
+      "artifact_path": "models\\cnn_lstm_FD004.keras"
+    },
+    {
+      "model": "CNN-LSTM with Self-Attention",
+      "subset": "FD004",
+      "rmse": 29.82,
+      "mae": 22.5,
+      "r2": 0.7009,
+      "phm_score": 7605.3,
+      "training_time_sec": 1690.5,
+      "artifact_path": "models\\cnn_lstm_attention_FD004.keras"
+    },
+    {
+      "model": "XGBoost",
+      "subset": "FD004",
+      "rmse": 31.27,
+      "mae": 23.3,
+      "r2": 0.6711,
+      "phm_score": 10707.9,
+      "training_time_sec": 210.3,
+      "artifact_path": "models\\xgboost_FD004.joblib"
+    },
+    {
+      "model": "Random Forest",
+      "subset": "FD004",
+      "rmse": 32.2,
+      "mae": 23.84,
+      "r2": 0.6512,
+      "phm_score": 12759.2,
+      "training_time_sec": 310.2,
+      "artifact_path": "models\\random_forest_FD004.joblib"
+    }
+  ],
+  "evaluations": {
+    "CNN": [
+      {
+        "engine_id": 1,
+        "actual_rul": 22.0,
+        "predicted_rul": 58.7,
+        "residual": 36.7
+      },
+      {
+        "engine_id": 2,
+        "actual_rul": 39.0,
+        "predicted_rul": 92.4,
+        "residual": 53.4
+      },
+      {
+        "engine_id": 3,
+        "actual_rul": 107.0,
+        "predicted_rul": 108.4,
+        "residual": 1.4
+      },
+      {
+        "engine_id": 4,
+        "actual_rul": 75.0,
+        "predicted_rul": 106.9,
+        "residual": 31.9
+      },
+      {
+        "engine_id": 5,
+        "actual_rul": 149.0,
+        "predicted_rul": 56.3,
+        "residual": -92.7
+      },
+      {
+        "engine_id": 6,
+        "actual_rul": 78.0,
+        "predicted_rul": 110.7,
+        "residual": 32.7
+      },
+      {
+        "engine_id": 7,
+        "actual_rul": 94.0,
+        "predicted_rul": 74.5,
+        "residual": -19.5
+      },
+      {
+        "engine_id": 8,
+        "actual_rul": 14.0,
+        "predicted_rul": 10.4,
+        "residual": -3.6
+      },
+      {
+        "engine_id": 9,
+        "actual_rul": 99.0,
+        "predicted_rul": 98.0,
+        "residual": -1.0
+      },
+      {
+        "engine_id": 10,
+        "actual_rul": 162.0,
+        "predicted_rul": 146.6,
+        "residual": -15.4
+      },
+      {
+        "engine_id": 11,
+        "actual_rul": 143.0,
+        "predicted_rul": 94.5,
+        "residual": -48.5
+      },
+      {
+        "engine_id": 12,
+        "actual_rul": 7.0,
+        "predicted_rul": 30.0,
+        "residual": 23.0
+      },
+      {
+        "engine_id": 13,
+        "actual_rul": 71.0,
+        "predicted_rul": 83.7,
+        "residual": 12.7
+      },
+      {
+        "engine_id": 14,
+        "actual_rul": 105.0,
+        "predicted_rul": 67.7,
+        "residual": -37.3
+      },
+      {
+        "engine_id": 15,
+        "actual_rul": 12.0,
+        "predicted_rul": 26.5,
+        "residual": 14.5
+      },
+      {
+        "engine_id": 16,
+        "actual_rul": 160.0,
+        "predicted_rul": 101.9,
+        "residual": -58.1
+      },
+      {
+        "engine_id": 17,
+        "actual_rul": 162.0,
+        "predicted_rul": 99.0,
+        "residual": -63.0
+      },
+      {
+        "engine_id": 18,
+        "actual_rul": 104.0,
+        "predicted_rul": 92.6,
+        "residual": -11.4
+      },
+      {
+        "engine_id": 19,
+        "actual_rul": 194.0,
+        "predicted_rul": 150.0,
+        "residual": -44.0
+      },
+      {
+        "engine_id": 20,
+        "actual_rul": 82.0,
+        "predicted_rul": 56.9,
+        "residual": -25.1
+      },
+      {
+        "engine_id": 21,
+        "actual_rul": 91.0,
+        "predicted_rul": 99.9,
+        "residual": 8.9
+      },
+      {
+        "engine_id": 22,
+        "actual_rul": 11.0,
+        "predicted_rul": 30.4,
+        "residual": 19.4
+      },
+      {
+        "engine_id": 23,
+        "actual_rul": 26.0,
+        "predicted_rul": 50.0,
+        "residual": 24.0
+      },
+      {
+        "engine_id": 24,
+        "actual_rul": 142.0,
+        "predicted_rul": 93.5,
+        "residual": -48.5
+      },
+      {
+        "engine_id": 25,
+        "actual_rul": 39.0,
+        "predicted_rul": 15.5,
+        "residual": -23.5
+      },
+      {
+        "engine_id": 26,
+        "actual_rul": 92.0,
+        "predicted_rul": 83.8,
+        "residual": -8.2
+      },
+      {
+        "engine_id": 27,
+        "actual_rul": 76.0,
+        "predicted_rul": 90.4,
+        "residual": 14.4
+      },
+      {
+        "engine_id": 28,
+        "actual_rul": 124.0,
+        "predicted_rul": 150.0,
+        "residual": 26.0
+      },
+      {
+        "engine_id": 29,
+        "actual_rul": 64.0,
+        "predicted_rul": 116.7,
+        "residual": 52.7
+      },
+      {
+        "engine_id": 30,
+        "actual_rul": 118.0,
+        "predicted_rul": 101.8,
+        "residual": -16.2
+      },
+      {
+        "engine_id": 31,
+        "actual_rul": 6.0,
+        "predicted_rul": 47.6,
+        "residual": 41.6
+      },
+      {
+        "engine_id": 32,
+        "actual_rul": 22.0,
+        "predicted_rul": 23.6,
+        "residual": 1.6
+      },
+      {
+        "engine_id": 33,
+        "actual_rul": 147.0,
+        "predicted_rul": 123.2,
+        "residual": -23.8
+      },
+      {
+        "engine_id": 34,
+        "actual_rul": 126.0,
+        "predicted_rul": 101.8,
+        "residual": -24.2
+      },
+      {
+        "engine_id": 35,
+        "actual_rul": 36.0,
+        "predicted_rul": 16.6,
+        "residual": -19.4
+      },
+      {
+        "engine_id": 36,
+        "actual_rul": 73.0,
+        "predicted_rul": 77.5,
+        "residual": 4.5
+      },
+      {
+        "engine_id": 37,
+        "actual_rul": 89.0,
+        "predicted_rul": 76.7,
+        "residual": -12.3
+      },
+      {
+        "engine_id": 38,
+        "actual_rul": 11.0,
+        "predicted_rul": 64.4,
+        "residual": 53.4
+      },
+      {
+        "engine_id": 39,
+        "actual_rul": 151.0,
+        "predicted_rul": 97.3,
+        "residual": -53.7
+      },
+      {
+        "engine_id": 40,
+        "actual_rul": 10.0,
+        "predicted_rul": 29.4,
+        "residual": 19.4
+      },
+      {
+        "engine_id": 41,
+        "actual_rul": 97.0,
+        "predicted_rul": 103.8,
+        "residual": 6.8
+      },
+      {
+        "engine_id": 42,
+        "actual_rul": 30.0,
+        "predicted_rul": 42.2,
+        "residual": 12.2
+      },
+      {
+        "engine_id": 43,
+        "actual_rul": 42.0,
+        "predicted_rul": 103.3,
+        "residual": 61.3
+      },
+      {
+        "engine_id": 44,
+        "actual_rul": 60.0,
+        "predicted_rul": 24.0,
+        "residual": -36.0
+      },
+      {
+        "engine_id": 45,
+        "actual_rul": 85.0,
+        "predicted_rul": 100.6,
+        "residual": 15.6
+      },
+      {
+        "engine_id": 46,
+        "actual_rul": 134.0,
+        "predicted_rul": 118.9,
+        "residual": -15.1
+      },
+      {
+        "engine_id": 47,
+        "actual_rul": 34.0,
+        "predicted_rul": 28.4,
+        "residual": -5.6
+      },
+      {
+        "engine_id": 48,
+        "actual_rul": 45.0,
+        "predicted_rul": 95.9,
+        "residual": 50.9
+      },
+      {
+        "engine_id": 49,
+        "actual_rul": 24.0,
+        "predicted_rul": 54.2,
+        "residual": 30.2
+      },
+      {
+        "engine_id": 50,
+        "actual_rul": 86.0,
+        "predicted_rul": 105.0,
+        "residual": 19.0
+      },
+      {
+        "engine_id": 51,
+        "actual_rul": 119.0,
+        "predicted_rul": 118.2,
+        "residual": -0.8
+      },
+      {
+        "engine_id": 52,
+        "actual_rul": 151.0,
+        "predicted_rul": 131.3,
+        "residual": -19.7
+      },
+      {
+        "engine_id": 53,
+        "actual_rul": 142.0,
+        "predicted_rul": 103.8,
+        "residual": -38.2
+      },
+      {
+        "engine_id": 54,
+        "actual_rul": 176.0,
+        "predicted_rul": 87.7,
+        "residual": -88.3
+      },
+      {
+        "engine_id": 55,
+        "actual_rul": 157.0,
+        "predicted_rul": 108.4,
+        "residual": -48.6
+      },
+      {
+        "engine_id": 56,
+        "actual_rul": 67.0,
+        "predicted_rul": 118.9,
+        "residual": 51.9
+      },
+      {
+        "engine_id": 57,
+        "actual_rul": 97.0,
+        "predicted_rul": 108.7,
+        "residual": 11.7
+      },
+      {
+        "engine_id": 58,
+        "actual_rul": 8.0,
+        "predicted_rul": 36.6,
+        "residual": 28.6
+      },
+      {
+        "engine_id": 59,
+        "actual_rul": 154.0,
+        "predicted_rul": 135.1,
+        "residual": -18.9
+      },
+      {
+        "engine_id": 60,
+        "actual_rul": 139.0,
+        "predicted_rul": 93.3,
+        "residual": -45.7
+      },
+      {
+        "engine_id": 61,
+        "actual_rul": 51.0,
+        "predicted_rul": 12.1,
+        "residual": -38.9
+      },
+      {
+        "engine_id": 62,
+        "actual_rul": 33.0,
+        "predicted_rul": 79.3,
+        "residual": 46.3
+      },
+      {
+        "engine_id": 63,
+        "actual_rul": 184.0,
+        "predicted_rul": 111.1,
+        "residual": -72.9
+      },
+      {
+        "engine_id": 64,
+        "actual_rul": 46.0,
+        "predicted_rul": 59.1,
+        "residual": 13.1
+      },
+      {
+        "engine_id": 65,
+        "actual_rul": 12.0,
+        "predicted_rul": 59.7,
+        "residual": 47.7
+      },
+      {
+        "engine_id": 66,
+        "actual_rul": 133.0,
+        "predicted_rul": 85.4,
+        "residual": -47.6
+      },
+      {
+        "engine_id": 67,
+        "actual_rul": 46.0,
+        "predicted_rul": 36.5,
+        "residual": -9.5
+      },
+      {
+        "engine_id": 68,
+        "actual_rul": 46.0,
+        "predicted_rul": 69.4,
+        "residual": 23.4
+      },
+      {
+        "engine_id": 69,
+        "actual_rul": 12.0,
+        "predicted_rul": 36.7,
+        "residual": 24.7
+      },
+      {
+        "engine_id": 70,
+        "actual_rul": 33.0,
+        "predicted_rul": 48.3,
+        "residual": 15.3
+      },
+      {
+        "engine_id": 71,
+        "actual_rul": 15.0,
+        "predicted_rul": 28.4,
+        "residual": 13.4
+      },
+      {
+        "engine_id": 72,
+        "actual_rul": 176.0,
+        "predicted_rul": 102.7,
+        "residual": -73.3
+      },
+      {
+        "engine_id": 73,
+        "actual_rul": 23.0,
+        "predicted_rul": 36.7,
+        "residual": 13.7
+      },
+      {
+        "engine_id": 74,
+        "actual_rul": 89.0,
+        "predicted_rul": 103.8,
+        "residual": 14.8
+      },
+      {
+        "engine_id": 75,
+        "actual_rul": 124.0,
+        "predicted_rul": 104.4,
+        "residual": -19.6
+      },
+      {
+        "engine_id": 76,
+        "actual_rul": 163.0,
+        "predicted_rul": 107.4,
+        "residual": -55.6
+      },
+      {
+        "engine_id": 77,
+        "actual_rul": 25.0,
+        "predicted_rul": 83.7,
+        "residual": 58.7
+      },
+      {
+        "engine_id": 78,
+        "actual_rul": 74.0,
+        "predicted_rul": 109.5,
+        "residual": 35.5
+      },
+      {
+        "engine_id": 79,
+        "actual_rul": 78.0,
+        "predicted_rul": 92.5,
+        "residual": 14.5
+      },
+      {
+        "engine_id": 80,
+        "actual_rul": 114.0,
+        "predicted_rul": 72.7,
+        "residual": -41.3
+      },
+      {
+        "engine_id": 81,
+        "actual_rul": 96.0,
+        "predicted_rul": 110.2,
+        "residual": 14.2
+      },
+      {
+        "engine_id": 82,
+        "actual_rul": 10.0,
+        "predicted_rul": 52.1,
+        "residual": 42.1
+      },
+      {
+        "engine_id": 83,
+        "actual_rul": 172.0,
+        "predicted_rul": 103.1,
+        "residual": -68.9
+      },
+      {
+        "engine_id": 84,
+        "actual_rul": 166.0,
+        "predicted_rul": 113.4,
+        "residual": -52.6
+      },
+      {
+        "engine_id": 85,
+        "actual_rul": 115.0,
+        "predicted_rul": 114.6,
+        "residual": -0.4
+      },
+      {
+        "engine_id": 86,
+        "actual_rul": 70.0,
+        "predicted_rul": 60.7,
+        "residual": -9.3
+      },
+      {
+        "engine_id": 87,
+        "actual_rul": 94.0,
+        "predicted_rul": 100.6,
+        "residual": 6.6
+      },
+      {
+        "engine_id": 88,
+        "actual_rul": 56.0,
+        "predicted_rul": 101.0,
+        "residual": 45.0
+      },
+      {
+        "engine_id": 89,
+        "actual_rul": 86.0,
+        "predicted_rul": 70.3,
+        "residual": -15.7
+      },
+      {
+        "engine_id": 90,
+        "actual_rul": 96.0,
+        "predicted_rul": 69.6,
+        "residual": -26.4
+      },
+      {
+        "engine_id": 91,
+        "actual_rul": 50.0,
+        "predicted_rul": 64.6,
+        "residual": 14.6
+      },
+      {
+        "engine_id": 92,
+        "actual_rul": 73.0,
+        "predicted_rul": 86.2,
+        "residual": 13.2
+      },
+      {
+        "engine_id": 93,
+        "actual_rul": 154.0,
+        "predicted_rul": 120.5,
+        "residual": -33.5
+      },
+      {
+        "engine_id": 94,
+        "actual_rul": 129.0,
+        "predicted_rul": 103.0,
+        "residual": -26.0
+      },
+      {
+        "engine_id": 95,
+        "actual_rul": 171.0,
+        "predicted_rul": 91.2,
+        "residual": -79.8
+      },
+      {
+        "engine_id": 96,
+        "actual_rul": 71.0,
+        "predicted_rul": 89.6,
+        "residual": 18.6
+      },
+      {
+        "engine_id": 97,
+        "actual_rul": 105.0,
+        "predicted_rul": 78.3,
+        "residual": -26.7
+      },
+      {
+        "engine_id": 98,
+        "actual_rul": 113.0,
+        "predicted_rul": 112.0,
+        "residual": -1.0
+      },
+      {
+        "engine_id": 99,
+        "actual_rul": 37.0,
+        "predicted_rul": 83.1,
+        "residual": 46.1
+      },
+      {
+        "engine_id": 100,
+        "actual_rul": 7.0,
+        "predicted_rul": 33.9,
+        "residual": 26.9
+      },
+      {
+        "engine_id": 101,
+        "actual_rul": 13.0,
+        "predicted_rul": 22.3,
+        "residual": 9.3
+      },
+      {
+        "engine_id": 102,
+        "actual_rul": 22.0,
+        "predicted_rul": 13.2,
+        "residual": -8.8
+      },
+      {
+        "engine_id": 103,
+        "actual_rul": 9.0,
+        "predicted_rul": 82.4,
+        "residual": 73.4
+      },
+      {
+        "engine_id": 104,
+        "actual_rul": 120.0,
+        "predicted_rul": 117.0,
+        "residual": -3.0
+      },
+      {
+        "engine_id": 105,
+        "actual_rul": 100.0,
+        "predicted_rul": 57.9,
+        "residual": -42.1
+      },
+      {
+        "engine_id": 106,
+        "actual_rul": 107.0,
+        "predicted_rul": 67.2,
+        "residual": -39.8
+      },
+      {
+        "engine_id": 107,
+        "actual_rul": 41.0,
+        "predicted_rul": 85.3,
+        "residual": 44.3
+      },
+      {
+        "engine_id": 108,
+        "actual_rul": 153.0,
+        "predicted_rul": 103.7,
+        "residual": -49.3
+      },
+      {
+        "engine_id": 109,
+        "actual_rul": 126.0,
+        "predicted_rul": 121.5,
+        "residual": -4.5
+      },
+      {
+        "engine_id": 110,
+        "actual_rul": 59.0,
+        "predicted_rul": 69.5,
+        "residual": 10.5
+      },
+      {
+        "engine_id": 111,
+        "actual_rul": 18.0,
+        "predicted_rul": 34.9,
+        "residual": 16.9
+      },
+      {
+        "engine_id": 112,
+        "actual_rul": 66.0,
+        "predicted_rul": 98.4,
+        "residual": 32.4
+      },
+      {
+        "engine_id": 113,
+        "actual_rul": 13.0,
+        "predicted_rul": 52.5,
+        "residual": 39.5
+      },
+      {
+        "engine_id": 114,
+        "actual_rul": 14.0,
+        "predicted_rul": 24.2,
+        "residual": 10.2
+      },
+      {
+        "engine_id": 115,
+        "actual_rul": 139.0,
+        "predicted_rul": 86.5,
+        "residual": -52.5
+      },
+      {
+        "engine_id": 116,
+        "actual_rul": 13.0,
+        "predicted_rul": 44.6,
+        "residual": 31.6
+      },
+      {
+        "engine_id": 117,
+        "actual_rul": 75.0,
+        "predicted_rul": 102.4,
+        "residual": 27.4
+      },
+      {
+        "engine_id": 118,
+        "actual_rul": 8.0,
+        "predicted_rul": 30.6,
+        "residual": 22.6
+      },
+      {
+        "engine_id": 119,
+        "actual_rul": 109.0,
+        "predicted_rul": 70.8,
+        "residual": -38.2
+      },
+      {
+        "engine_id": 120,
+        "actual_rul": 137.0,
+        "predicted_rul": 92.6,
+        "residual": -44.4
+      },
+      {
+        "engine_id": 121,
+        "actual_rul": 41.0,
+        "predicted_rul": 53.2,
+        "residual": 12.2
+      },
+      {
+        "engine_id": 122,
+        "actual_rul": 192.0,
+        "predicted_rul": 116.9,
+        "residual": -75.1
+      },
+      {
+        "engine_id": 123,
+        "actual_rul": 23.0,
+        "predicted_rul": 63.7,
+        "residual": 40.7
+      },
+      {
+        "engine_id": 124,
+        "actual_rul": 86.0,
+        "predicted_rul": 90.8,
+        "residual": 4.8
+      },
+      {
+        "engine_id": 125,
+        "actual_rul": 184.0,
+        "predicted_rul": 150.0,
+        "residual": -34.0
+      },
+      {
+        "engine_id": 126,
+        "actual_rul": 15.0,
+        "predicted_rul": 15.9,
+        "residual": 0.9
+      },
+      {
+        "engine_id": 127,
+        "actual_rul": 195.0,
+        "predicted_rul": 108.6,
+        "residual": -86.4
+      },
+      {
+        "engine_id": 128,
+        "actual_rul": 126.0,
+        "predicted_rul": 110.5,
+        "residual": -15.5
+      },
+      {
+        "engine_id": 129,
+        "actual_rul": 120.0,
+        "predicted_rul": 103.5,
+        "residual": -16.5
+      },
+      {
+        "engine_id": 130,
+        "actual_rul": 165.0,
+        "predicted_rul": 89.4,
+        "residual": -75.6
+      },
+      {
+        "engine_id": 131,
+        "actual_rul": 101.0,
+        "predicted_rul": 88.3,
+        "residual": -12.7
+      },
+      {
+        "engine_id": 132,
+        "actual_rul": 116.0,
+        "predicted_rul": 94.6,
+        "residual": -21.4
+      },
+      {
+        "engine_id": 133,
+        "actual_rul": 126.0,
+        "predicted_rul": 113.2,
+        "residual": -12.8
+      },
+      {
+        "engine_id": 134,
+        "actual_rul": 36.0,
+        "predicted_rul": 68.3,
+        "residual": 32.3
+      },
+      {
+        "engine_id": 135,
+        "actual_rul": 7.0,
+        "predicted_rul": 9.7,
+        "residual": 2.7
+      },
+      {
+        "engine_id": 136,
+        "actual_rul": 122.0,
+        "predicted_rul": 74.5,
+        "residual": -47.5
+      },
+      {
+        "engine_id": 137,
+        "actual_rul": 159.0,
+        "predicted_rul": 74.6,
+        "residual": -84.4
+      },
+      {
+        "engine_id": 138,
+        "actual_rul": 88.0,
+        "predicted_rul": 90.0,
+        "residual": 2.0
+      },
+      {
+        "engine_id": 139,
+        "actual_rul": 173.0,
+        "predicted_rul": 105.7,
+        "residual": -67.3
+      },
+      {
+        "engine_id": 140,
+        "actual_rul": 146.0,
+        "predicted_rul": 80.1,
+        "residual": -65.9
+      },
+      {
+        "engine_id": 141,
+        "actual_rul": 130.0,
+        "predicted_rul": 147.1,
+        "residual": 17.1
+      },
+      {
+        "engine_id": 142,
+        "actual_rul": 108.0,
+        "predicted_rul": 98.4,
+        "residual": -9.6
+      },
+      {
+        "engine_id": 143,
+        "actual_rul": 53.0,
+        "predicted_rul": 50.1,
+        "residual": -2.9
+      },
+      {
+        "engine_id": 144,
+        "actual_rul": 162.0,
+        "predicted_rul": 114.4,
+        "residual": -47.6
+      },
+      {
+        "engine_id": 145,
+        "actual_rul": 59.0,
+        "predicted_rul": 78.6,
+        "residual": 19.6
+      },
+      {
+        "engine_id": 146,
+        "actual_rul": 100.0,
+        "predicted_rul": 110.7,
+        "residual": 10.7
+      },
+      {
+        "engine_id": 147,
+        "actual_rul": 56.0,
+        "predicted_rul": 106.5,
+        "residual": 50.5
+      },
+      {
+        "engine_id": 148,
+        "actual_rul": 145.0,
+        "predicted_rul": 107.2,
+        "residual": -37.8
+      },
+      {
+        "engine_id": 149,
+        "actual_rul": 76.0,
+        "predicted_rul": 113.8,
+        "residual": 37.8
+      },
+      {
+        "engine_id": 150,
+        "actual_rul": 57.0,
+        "predicted_rul": 27.3,
+        "residual": -29.7
+      },
+      {
+        "engine_id": 151,
+        "actual_rul": 31.0,
+        "predicted_rul": 13.9,
+        "residual": -17.1
+      },
+      {
+        "engine_id": 152,
+        "actual_rul": 88.0,
+        "predicted_rul": 109.6,
+        "residual": 21.6
+      },
+      {
+        "engine_id": 153,
+        "actual_rul": 173.0,
+        "predicted_rul": 70.2,
+        "residual": -102.8
+      },
+      {
+        "engine_id": 154,
+        "actual_rul": 34.0,
+        "predicted_rul": 58.8,
+        "residual": 24.8
+      },
+      {
+        "engine_id": 155,
+        "actual_rul": 7.0,
+        "predicted_rul": 51.6,
+        "residual": 44.6
+      },
+      {
+        "engine_id": 156,
+        "actual_rul": 133.0,
+        "predicted_rul": 73.9,
+        "residual": -59.1
+      },
+      {
+        "engine_id": 157,
+        "actual_rul": 172.0,
+        "predicted_rul": 128.4,
+        "residual": -43.6
+      },
+      {
+        "engine_id": 158,
+        "actual_rul": 6.0,
+        "predicted_rul": 24.4,
+        "residual": 18.4
+      },
+      {
+        "engine_id": 159,
+        "actual_rul": 22.0,
+        "predicted_rul": 49.5,
+        "residual": 27.5
+      },
+      {
+        "engine_id": 160,
+        "actual_rul": 83.0,
+        "predicted_rul": 105.3,
+        "residual": 22.3
+      },
+      {
+        "engine_id": 161,
+        "actual_rul": 82.0,
+        "predicted_rul": 112.3,
+        "residual": 30.3
+      },
+      {
+        "engine_id": 162,
+        "actual_rul": 84.0,
+        "predicted_rul": 66.9,
+        "residual": -17.1
+      },
+      {
+        "engine_id": 163,
+        "actual_rul": 95.0,
+        "predicted_rul": 89.5,
+        "residual": -5.5
+      },
+      {
+        "engine_id": 164,
+        "actual_rul": 174.0,
+        "predicted_rul": 141.1,
+        "residual": -32.9
+      },
+      {
+        "engine_id": 165,
+        "actual_rul": 111.0,
+        "predicted_rul": 102.3,
+        "residual": -8.7
+      },
+      {
+        "engine_id": 166,
+        "actual_rul": 72.0,
+        "predicted_rul": 96.4,
+        "residual": 24.4
+      },
+      {
+        "engine_id": 167,
+        "actual_rul": 109.0,
+        "predicted_rul": 110.6,
+        "residual": 1.6
+      },
+      {
+        "engine_id": 168,
+        "actual_rul": 87.0,
+        "predicted_rul": 85.7,
+        "residual": -1.3
+      },
+      {
+        "engine_id": 169,
+        "actual_rul": 179.0,
+        "predicted_rul": 115.6,
+        "residual": -63.4
+      },
+      {
+        "engine_id": 170,
+        "actual_rul": 158.0,
+        "predicted_rul": 104.8,
+        "residual": -53.2
+      },
+      {
+        "engine_id": 171,
+        "actual_rul": 126.0,
+        "predicted_rul": 84.9,
+        "residual": -41.1
+      },
+      {
+        "engine_id": 172,
+        "actual_rul": 12.0,
+        "predicted_rul": 87.0,
+        "residual": 75.0
+      },
+      {
+        "engine_id": 173,
+        "actual_rul": 8.0,
+        "predicted_rul": 28.2,
+        "residual": 20.2
+      },
+      {
+        "engine_id": 174,
+        "actual_rul": 10.0,
+        "predicted_rul": 76.4,
+        "residual": 66.4
+      },
+      {
+        "engine_id": 175,
+        "actual_rul": 123.0,
+        "predicted_rul": 56.9,
+        "residual": -66.1
+      },
+      {
+        "engine_id": 176,
+        "actual_rul": 103.0,
+        "predicted_rul": 83.9,
+        "residual": -19.1
+      },
+      {
+        "engine_id": 177,
+        "actual_rul": 12.0,
+        "predicted_rul": 52.2,
+        "residual": 40.2
+      },
+      {
+        "engine_id": 178,
+        "actual_rul": 106.0,
+        "predicted_rul": 111.6,
+        "residual": 5.6
+      },
+      {
+        "engine_id": 179,
+        "actual_rul": 12.0,
+        "predicted_rul": 18.8,
+        "residual": 6.8
+      },
+      {
+        "engine_id": 180,
+        "actual_rul": 32.0,
+        "predicted_rul": 11.6,
+        "residual": -20.4
+      },
+      {
+        "engine_id": 181,
+        "actual_rul": 37.0,
+        "predicted_rul": 18.9,
+        "residual": -18.1
+      },
+      {
+        "engine_id": 182,
+        "actual_rul": 116.0,
+        "predicted_rul": 107.5,
+        "residual": -8.5
+      },
+      {
+        "engine_id": 183,
+        "actual_rul": 15.0,
+        "predicted_rul": 57.6,
+        "residual": 42.6
+      },
+      {
+        "engine_id": 184,
+        "actual_rul": 10.0,
+        "predicted_rul": 36.3,
+        "residual": 26.3
+      },
+      {
+        "engine_id": 185,
+        "actual_rul": 46.0,
+        "predicted_rul": 69.6,
+        "residual": 23.6
+      },
+      {
+        "engine_id": 186,
+        "actual_rul": 142.0,
+        "predicted_rul": 95.6,
+        "residual": -46.4
+      },
+      {
+        "engine_id": 187,
+        "actual_rul": 24.0,
+        "predicted_rul": 72.8,
+        "residual": 48.8
+      },
+      {
+        "engine_id": 188,
+        "actual_rul": 135.0,
+        "predicted_rul": 86.1,
+        "residual": -48.9
+      },
+      {
+        "engine_id": 189,
+        "actual_rul": 56.0,
+        "predicted_rul": 93.3,
+        "residual": 37.3
+      },
+      {
+        "engine_id": 190,
+        "actual_rul": 43.0,
+        "predicted_rul": 96.0,
+        "residual": 53.0
+      },
+      {
+        "engine_id": 191,
+        "actual_rul": 178.0,
+        "predicted_rul": 104.7,
+        "residual": -73.3
+      },
+      {
+        "engine_id": 192,
+        "actual_rul": 71.0,
+        "predicted_rul": 84.0,
+        "residual": 13.0
+      },
+      {
+        "engine_id": 193,
+        "actual_rul": 104.0,
+        "predicted_rul": 90.8,
+        "residual": -13.2
+      },
+      {
+        "engine_id": 194,
+        "actual_rul": 15.0,
+        "predicted_rul": 40.7,
+        "residual": 25.7
+      },
+      {
+        "engine_id": 195,
+        "actual_rul": 166.0,
+        "predicted_rul": 125.5,
+        "residual": -40.5
+      },
+      {
+        "engine_id": 196,
+        "actual_rul": 89.0,
+        "predicted_rul": 109.7,
+        "residual": 20.7
+      },
+      {
+        "engine_id": 197,
+        "actual_rul": 36.0,
+        "predicted_rul": 55.1,
+        "residual": 19.1
+      },
+      {
+        "engine_id": 198,
+        "actual_rul": 11.0,
+        "predicted_rul": 32.1,
+        "residual": 21.1
+      },
+      {
+        "engine_id": 199,
+        "actual_rul": 92.0,
+        "predicted_rul": 48.6,
+        "residual": -43.4
+      },
+      {
+        "engine_id": 200,
+        "actual_rul": 96.0,
+        "predicted_rul": 84.8,
+        "residual": -11.2
+      },
+      {
+        "engine_id": 201,
+        "actual_rul": 59.0,
+        "predicted_rul": 99.4,
+        "residual": 40.4
+      },
+      {
+        "engine_id": 202,
+        "actual_rul": 13.0,
+        "predicted_rul": 14.2,
+        "residual": 1.2
+      },
+      {
+        "engine_id": 203,
+        "actual_rul": 167.0,
+        "predicted_rul": 120.8,
+        "residual": -46.2
+      },
+      {
+        "engine_id": 204,
+        "actual_rul": 151.0,
+        "predicted_rul": 67.6,
+        "residual": -83.4
+      },
+      {
+        "engine_id": 205,
+        "actual_rul": 154.0,
+        "predicted_rul": 91.7,
+        "residual": -62.3
+      },
+      {
+        "engine_id": 206,
+        "actual_rul": 109.0,
+        "predicted_rul": 100.8,
+        "residual": -8.2
+      },
+      {
+        "engine_id": 207,
+        "actual_rul": 116.0,
+        "predicted_rul": 89.1,
+        "residual": -26.9
+      },
+      {
+        "engine_id": 208,
+        "actual_rul": 91.0,
+        "predicted_rul": 82.7,
+        "residual": -8.3
+      },
+      {
+        "engine_id": 209,
+        "actual_rul": 11.0,
+        "predicted_rul": 25.0,
+        "residual": 14.0
+      },
+      {
+        "engine_id": 210,
+        "actual_rul": 88.0,
+        "predicted_rul": 90.5,
+        "residual": 2.5
+      },
+      {
+        "engine_id": 211,
+        "actual_rul": 108.0,
+        "predicted_rul": 122.1,
+        "residual": 14.1
+      },
+      {
+        "engine_id": 212,
+        "actual_rul": 76.0,
+        "predicted_rul": 88.0,
+        "residual": 12.0
+      },
+      {
+        "engine_id": 213,
+        "actual_rul": 14.0,
+        "predicted_rul": 22.7,
+        "residual": 8.7
+      },
+      {
+        "engine_id": 214,
+        "actual_rul": 89.0,
+        "predicted_rul": 66.2,
+        "residual": -22.8
+      },
+      {
+        "engine_id": 215,
+        "actual_rul": 145.0,
+        "predicted_rul": 102.3,
+        "residual": -42.7
+      },
+      {
+        "engine_id": 216,
+        "actual_rul": 17.0,
+        "predicted_rul": 22.9,
+        "residual": 5.9
+      },
+      {
+        "engine_id": 217,
+        "actual_rul": 66.0,
+        "predicted_rul": 59.7,
+        "residual": -6.3
+      },
+      {
+        "engine_id": 218,
+        "actual_rul": 154.0,
+        "predicted_rul": 109.7,
+        "residual": -44.3
+      },
+      {
+        "engine_id": 219,
+        "actual_rul": 41.0,
+        "predicted_rul": 64.2,
+        "residual": 23.2
+      },
+      {
+        "engine_id": 220,
+        "actual_rul": 182.0,
+        "predicted_rul": 93.7,
+        "residual": -88.3
+      },
+      {
+        "engine_id": 221,
+        "actual_rul": 73.0,
+        "predicted_rul": 89.6,
+        "residual": 16.6
+      },
+      {
+        "engine_id": 222,
+        "actual_rul": 39.0,
+        "predicted_rul": 96.9,
+        "residual": 57.9
+      },
+      {
+        "engine_id": 223,
+        "actual_rul": 58.0,
+        "predicted_rul": 85.9,
+        "residual": 27.9
+      },
+      {
+        "engine_id": 224,
+        "actual_rul": 14.0,
+        "predicted_rul": 43.6,
+        "residual": 29.6
+      },
+      {
+        "engine_id": 225,
+        "actual_rul": 145.0,
+        "predicted_rul": 126.0,
+        "residual": -19.0
+      },
+      {
+        "engine_id": 226,
+        "actual_rul": 88.0,
+        "predicted_rul": 109.2,
+        "residual": 21.2
+      },
+      {
+        "engine_id": 227,
+        "actual_rul": 162.0,
+        "predicted_rul": 110.4,
+        "residual": -51.6
+      },
+      {
+        "engine_id": 228,
+        "actual_rul": 189.0,
+        "predicted_rul": 123.2,
+        "residual": -65.8
+      },
+      {
+        "engine_id": 229,
+        "actual_rul": 120.0,
+        "predicted_rul": 150.0,
+        "residual": 30.0
+      },
+      {
+        "engine_id": 230,
+        "actual_rul": 98.0,
+        "predicted_rul": 101.2,
+        "residual": 3.2
+      },
+      {
+        "engine_id": 231,
+        "actual_rul": 33.0,
+        "predicted_rul": 43.0,
+        "residual": 10.0
+      },
+      {
+        "engine_id": 232,
+        "actual_rul": 184.0,
+        "predicted_rul": 112.9,
+        "residual": -71.1
+      },
+      {
+        "engine_id": 233,
+        "actual_rul": 110.0,
+        "predicted_rul": 97.9,
+        "residual": -12.1
+      },
+      {
+        "engine_id": 234,
+        "actual_rul": 68.0,
+        "predicted_rul": 59.6,
+        "residual": -8.4
+      },
+      {
+        "engine_id": 235,
+        "actual_rul": 24.0,
+        "predicted_rul": 37.8,
+        "residual": 13.8
+      },
+      {
+        "engine_id": 236,
+        "actual_rul": 75.0,
+        "predicted_rul": 114.4,
+        "residual": 39.4
+      },
+      {
+        "engine_id": 237,
+        "actual_rul": 18.0,
+        "predicted_rul": 25.4,
+        "residual": 7.4
+      },
+      {
+        "engine_id": 238,
+        "actual_rul": 16.0,
+        "predicted_rul": 32.0,
+        "residual": 16.0
+      },
+      {
+        "engine_id": 239,
+        "actual_rul": 166.0,
+        "predicted_rul": 85.2,
+        "residual": -80.8
+      },
+      {
+        "engine_id": 240,
+        "actual_rul": 98.0,
+        "predicted_rul": 43.4,
+        "residual": -54.6
+      },
+      {
+        "engine_id": 241,
+        "actual_rul": 176.0,
+        "predicted_rul": 122.5,
+        "residual": -53.5
+      },
+      {
+        "engine_id": 242,
+        "actual_rul": 81.0,
+        "predicted_rul": 87.3,
+        "residual": 6.3
+      },
+      {
+        "engine_id": 243,
+        "actual_rul": 118.0,
+        "predicted_rul": 115.3,
+        "residual": -2.7
+      },
+      {
+        "engine_id": 244,
+        "actual_rul": 35.0,
+        "predicted_rul": 66.7,
+        "residual": 31.7
+      },
+      {
+        "engine_id": 245,
+        "actual_rul": 131.0,
+        "predicted_rul": 119.1,
+        "residual": -11.9
+      },
+      {
+        "engine_id": 246,
+        "actual_rul": 194.0,
+        "predicted_rul": 129.5,
+        "residual": -64.5
+      },
+      {
+        "engine_id": 247,
+        "actual_rul": 112.0,
+        "predicted_rul": 65.4,
+        "residual": -46.6
+      },
+      {
+        "engine_id": 248,
+        "actual_rul": 26.0,
+        "predicted_rul": 13.8,
+        "residual": -12.2
+      }
+    ],
+    "CNN-LSTM": [
+      {
+        "engine_id": 1,
+        "actual_rul": 22.0,
+        "predicted_rul": 35.4,
+        "residual": 13.4
+      },
+      {
+        "engine_id": 2,
+        "actual_rul": 39.0,
+        "predicted_rul": 104.2,
+        "residual": 65.2
+      },
+      {
+        "engine_id": 3,
+        "actual_rul": 107.0,
+        "predicted_rul": 111.6,
+        "residual": 4.6
+      },
+      {
+        "engine_id": 4,
+        "actual_rul": 75.0,
+        "predicted_rul": 93.6,
+        "residual": 18.6
+      },
+      {
+        "engine_id": 5,
+        "actual_rul": 149.0,
+        "predicted_rul": 74.6,
+        "residual": -74.4
+      },
+      {
+        "engine_id": 6,
+        "actual_rul": 78.0,
+        "predicted_rul": 117.5,
+        "residual": 39.5
+      },
+      {
+        "engine_id": 7,
+        "actual_rul": 94.0,
+        "predicted_rul": 102.3,
+        "residual": 8.3
+      },
+      {
+        "engine_id": 8,
+        "actual_rul": 14.0,
+        "predicted_rul": 10.0,
+        "residual": -4.0
+      },
+      {
+        "engine_id": 9,
+        "actual_rul": 99.0,
+        "predicted_rul": 124.7,
+        "residual": 25.7
+      },
+      {
+        "engine_id": 10,
+        "actual_rul": 162.0,
+        "predicted_rul": 97.7,
+        "residual": -64.3
+      },
+      {
+        "engine_id": 11,
+        "actual_rul": 143.0,
+        "predicted_rul": 119.9,
+        "residual": -23.1
+      },
+      {
+        "engine_id": 12,
+        "actual_rul": 7.0,
+        "predicted_rul": 14.4,
+        "residual": 7.4
+      },
+      {
+        "engine_id": 13,
+        "actual_rul": 71.0,
+        "predicted_rul": 83.1,
+        "residual": 12.1
+      },
+      {
+        "engine_id": 14,
+        "actual_rul": 105.0,
+        "predicted_rul": 59.5,
+        "residual": -45.5
+      },
+      {
+        "engine_id": 15,
+        "actual_rul": 12.0,
+        "predicted_rul": 25.5,
+        "residual": 13.5
+      },
+      {
+        "engine_id": 16,
+        "actual_rul": 160.0,
+        "predicted_rul": 116.0,
+        "residual": -44.0
+      },
+      {
+        "engine_id": 17,
+        "actual_rul": 162.0,
+        "predicted_rul": 100.0,
+        "residual": -62.0
+      },
+      {
+        "engine_id": 18,
+        "actual_rul": 104.0,
+        "predicted_rul": 80.1,
+        "residual": -23.9
+      },
+      {
+        "engine_id": 19,
+        "actual_rul": 194.0,
+        "predicted_rul": 113.3,
+        "residual": -80.7
+      },
+      {
+        "engine_id": 20,
+        "actual_rul": 82.0,
+        "predicted_rul": 69.0,
+        "residual": -13.0
+      },
+      {
+        "engine_id": 21,
+        "actual_rul": 91.0,
+        "predicted_rul": 102.7,
+        "residual": 11.7
+      },
+      {
+        "engine_id": 22,
+        "actual_rul": 11.0,
+        "predicted_rul": 16.6,
+        "residual": 5.6
+      },
+      {
+        "engine_id": 23,
+        "actual_rul": 26.0,
+        "predicted_rul": 45.2,
+        "residual": 19.2
+      },
+      {
+        "engine_id": 24,
+        "actual_rul": 142.0,
+        "predicted_rul": 108.9,
+        "residual": -33.1
+      },
+      {
+        "engine_id": 25,
+        "actual_rul": 39.0,
+        "predicted_rul": 37.3,
+        "residual": -1.7
+      },
+      {
+        "engine_id": 26,
+        "actual_rul": 92.0,
+        "predicted_rul": 71.8,
+        "residual": -20.2
+      },
+      {
+        "engine_id": 27,
+        "actual_rul": 76.0,
+        "predicted_rul": 66.7,
+        "residual": -9.3
+      },
+      {
+        "engine_id": 28,
+        "actual_rul": 124.0,
+        "predicted_rul": 101.3,
+        "residual": -22.7
+      },
+      {
+        "engine_id": 29,
+        "actual_rul": 64.0,
+        "predicted_rul": 82.9,
+        "residual": 18.9
+      },
+      {
+        "engine_id": 30,
+        "actual_rul": 118.0,
+        "predicted_rul": 105.9,
+        "residual": -12.1
+      },
+      {
+        "engine_id": 31,
+        "actual_rul": 6.0,
+        "predicted_rul": 10.5,
+        "residual": 4.5
+      },
+      {
+        "engine_id": 32,
+        "actual_rul": 22.0,
+        "predicted_rul": 12.6,
+        "residual": -9.4
+      },
+      {
+        "engine_id": 33,
+        "actual_rul": 147.0,
+        "predicted_rul": 122.0,
+        "residual": -25.0
+      },
+      {
+        "engine_id": 34,
+        "actual_rul": 126.0,
+        "predicted_rul": 86.1,
+        "residual": -39.9
+      },
+      {
+        "engine_id": 35,
+        "actual_rul": 36.0,
+        "predicted_rul": 22.9,
+        "residual": -13.1
+      },
+      {
+        "engine_id": 36,
+        "actual_rul": 73.0,
+        "predicted_rul": 62.1,
+        "residual": -10.9
+      },
+      {
+        "engine_id": 37,
+        "actual_rul": 89.0,
+        "predicted_rul": 64.3,
+        "residual": -24.7
+      },
+      {
+        "engine_id": 38,
+        "actual_rul": 11.0,
+        "predicted_rul": 24.0,
+        "residual": 13.0
+      },
+      {
+        "engine_id": 39,
+        "actual_rul": 151.0,
+        "predicted_rul": 105.3,
+        "residual": -45.7
+      },
+      {
+        "engine_id": 40,
+        "actual_rul": 10.0,
+        "predicted_rul": 18.4,
+        "residual": 8.4
+      },
+      {
+        "engine_id": 41,
+        "actual_rul": 97.0,
+        "predicted_rul": 69.7,
+        "residual": -27.3
+      },
+      {
+        "engine_id": 42,
+        "actual_rul": 30.0,
+        "predicted_rul": 19.9,
+        "residual": -10.1
+      },
+      {
+        "engine_id": 43,
+        "actual_rul": 42.0,
+        "predicted_rul": 103.5,
+        "residual": 61.5
+      },
+      {
+        "engine_id": 44,
+        "actual_rul": 60.0,
+        "predicted_rul": 36.6,
+        "residual": -23.4
+      },
+      {
+        "engine_id": 45,
+        "actual_rul": 85.0,
+        "predicted_rul": 95.9,
+        "residual": 10.9
+      },
+      {
+        "engine_id": 46,
+        "actual_rul": 134.0,
+        "predicted_rul": 79.0,
+        "residual": -55.0
+      },
+      {
+        "engine_id": 47,
+        "actual_rul": 34.0,
+        "predicted_rul": 35.4,
+        "residual": 1.4
+      },
+      {
+        "engine_id": 48,
+        "actual_rul": 45.0,
+        "predicted_rul": 62.6,
+        "residual": 17.6
+      },
+      {
+        "engine_id": 49,
+        "actual_rul": 24.0,
+        "predicted_rul": 29.2,
+        "residual": 5.2
+      },
+      {
+        "engine_id": 50,
+        "actual_rul": 86.0,
+        "predicted_rul": 92.3,
+        "residual": 6.3
+      },
+      {
+        "engine_id": 51,
+        "actual_rul": 119.0,
+        "predicted_rul": 122.8,
+        "residual": 3.8
+      },
+      {
+        "engine_id": 52,
+        "actual_rul": 151.0,
+        "predicted_rul": 124.5,
+        "residual": -26.5
+      },
+      {
+        "engine_id": 53,
+        "actual_rul": 142.0,
+        "predicted_rul": 124.0,
+        "residual": -18.0
+      },
+      {
+        "engine_id": 54,
+        "actual_rul": 176.0,
+        "predicted_rul": 107.9,
+        "residual": -68.1
+      },
+      {
+        "engine_id": 55,
+        "actual_rul": 157.0,
+        "predicted_rul": 125.7,
+        "residual": -31.3
+      },
+      {
+        "engine_id": 56,
+        "actual_rul": 67.0,
+        "predicted_rul": 82.1,
+        "residual": 15.1
+      },
+      {
+        "engine_id": 57,
+        "actual_rul": 97.0,
+        "predicted_rul": 102.2,
+        "residual": 5.2
+      },
+      {
+        "engine_id": 58,
+        "actual_rul": 8.0,
+        "predicted_rul": 7.3,
+        "residual": -0.7
+      },
+      {
+        "engine_id": 59,
+        "actual_rul": 154.0,
+        "predicted_rul": 94.5,
+        "residual": -59.5
+      },
+      {
+        "engine_id": 60,
+        "actual_rul": 139.0,
+        "predicted_rul": 120.7,
+        "residual": -18.3
+      },
+      {
+        "engine_id": 61,
+        "actual_rul": 51.0,
+        "predicted_rul": 22.4,
+        "residual": -28.6
+      },
+      {
+        "engine_id": 62,
+        "actual_rul": 33.0,
+        "predicted_rul": 35.0,
+        "residual": 2.0
+      },
+      {
+        "engine_id": 63,
+        "actual_rul": 184.0,
+        "predicted_rul": 88.6,
+        "residual": -95.4
+      },
+      {
+        "engine_id": 64,
+        "actual_rul": 46.0,
+        "predicted_rul": 46.8,
+        "residual": 0.8
+      },
+      {
+        "engine_id": 65,
+        "actual_rul": 12.0,
+        "predicted_rul": 24.3,
+        "residual": 12.3
+      },
+      {
+        "engine_id": 66,
+        "actual_rul": 133.0,
+        "predicted_rul": 78.3,
+        "residual": -54.7
+      },
+      {
+        "engine_id": 67,
+        "actual_rul": 46.0,
+        "predicted_rul": 30.2,
+        "residual": -15.8
+      },
+      {
+        "engine_id": 68,
+        "actual_rul": 46.0,
+        "predicted_rul": 43.8,
+        "residual": -2.2
+      },
+      {
+        "engine_id": 69,
+        "actual_rul": 12.0,
+        "predicted_rul": 24.3,
+        "residual": 12.3
+      },
+      {
+        "engine_id": 70,
+        "actual_rul": 33.0,
+        "predicted_rul": 35.3,
+        "residual": 2.3
+      },
+      {
+        "engine_id": 71,
+        "actual_rul": 15.0,
+        "predicted_rul": 27.7,
+        "residual": 12.7
+      },
+      {
+        "engine_id": 72,
+        "actual_rul": 176.0,
+        "predicted_rul": 119.6,
+        "residual": -56.4
+      },
+      {
+        "engine_id": 73,
+        "actual_rul": 23.0,
+        "predicted_rul": 36.9,
+        "residual": 13.9
+      },
+      {
+        "engine_id": 74,
+        "actual_rul": 89.0,
+        "predicted_rul": 103.5,
+        "residual": 14.5
+      },
+      {
+        "engine_id": 75,
+        "actual_rul": 124.0,
+        "predicted_rul": 117.9,
+        "residual": -6.1
+      },
+      {
+        "engine_id": 76,
+        "actual_rul": 163.0,
+        "predicted_rul": 97.1,
+        "residual": -65.9
+      },
+      {
+        "engine_id": 77,
+        "actual_rul": 25.0,
+        "predicted_rul": 45.9,
+        "residual": 20.9
+      },
+      {
+        "engine_id": 78,
+        "actual_rul": 74.0,
+        "predicted_rul": 71.9,
+        "residual": -2.1
+      },
+      {
+        "engine_id": 79,
+        "actual_rul": 78.0,
+        "predicted_rul": 73.2,
+        "residual": -4.8
+      },
+      {
+        "engine_id": 80,
+        "actual_rul": 114.0,
+        "predicted_rul": 66.9,
+        "residual": -47.1
+      },
+      {
+        "engine_id": 81,
+        "actual_rul": 96.0,
+        "predicted_rul": 119.2,
+        "residual": 23.2
+      },
+      {
+        "engine_id": 82,
+        "actual_rul": 10.0,
+        "predicted_rul": 21.4,
+        "residual": 11.4
+      },
+      {
+        "engine_id": 83,
+        "actual_rul": 172.0,
+        "predicted_rul": 118.6,
+        "residual": -53.4
+      },
+      {
+        "engine_id": 84,
+        "actual_rul": 166.0,
+        "predicted_rul": 124.8,
+        "residual": -41.2
+      },
+      {
+        "engine_id": 85,
+        "actual_rul": 115.0,
+        "predicted_rul": 99.0,
+        "residual": -16.0
+      },
+      {
+        "engine_id": 86,
+        "actual_rul": 70.0,
+        "predicted_rul": 66.0,
+        "residual": -4.0
+      },
+      {
+        "engine_id": 87,
+        "actual_rul": 94.0,
+        "predicted_rul": 110.8,
+        "residual": 16.8
+      },
+      {
+        "engine_id": 88,
+        "actual_rul": 56.0,
+        "predicted_rul": 92.2,
+        "residual": 36.2
+      },
+      {
+        "engine_id": 89,
+        "actual_rul": 86.0,
+        "predicted_rul": 93.4,
+        "residual": 7.4
+      },
+      {
+        "engine_id": 90,
+        "actual_rul": 96.0,
+        "predicted_rul": 66.4,
+        "residual": -29.6
+      },
+      {
+        "engine_id": 91,
+        "actual_rul": 50.0,
+        "predicted_rul": 62.3,
+        "residual": 12.3
+      },
+      {
+        "engine_id": 92,
+        "actual_rul": 73.0,
+        "predicted_rul": 97.8,
+        "residual": 24.8
+      },
+      {
+        "engine_id": 93,
+        "actual_rul": 154.0,
+        "predicted_rul": 121.1,
+        "residual": -32.9
+      },
+      {
+        "engine_id": 94,
+        "actual_rul": 129.0,
+        "predicted_rul": 126.2,
+        "residual": -2.8
+      },
+      {
+        "engine_id": 95,
+        "actual_rul": 171.0,
+        "predicted_rul": 85.7,
+        "residual": -85.3
+      },
+      {
+        "engine_id": 96,
+        "actual_rul": 71.0,
+        "predicted_rul": 99.9,
+        "residual": 28.9
+      },
+      {
+        "engine_id": 97,
+        "actual_rul": 105.0,
+        "predicted_rul": 106.2,
+        "residual": 1.2
+      },
+      {
+        "engine_id": 98,
+        "actual_rul": 113.0,
+        "predicted_rul": 117.6,
+        "residual": 4.6
+      },
+      {
+        "engine_id": 99,
+        "actual_rul": 37.0,
+        "predicted_rul": 44.6,
+        "residual": 7.6
+      },
+      {
+        "engine_id": 100,
+        "actual_rul": 7.0,
+        "predicted_rul": 22.2,
+        "residual": 15.2
+      },
+      {
+        "engine_id": 101,
+        "actual_rul": 13.0,
+        "predicted_rul": 15.6,
+        "residual": 2.6
+      },
+      {
+        "engine_id": 102,
+        "actual_rul": 22.0,
+        "predicted_rul": 17.8,
+        "residual": -4.2
+      },
+      {
+        "engine_id": 103,
+        "actual_rul": 9.0,
+        "predicted_rul": 23.9,
+        "residual": 14.9
+      },
+      {
+        "engine_id": 104,
+        "actual_rul": 120.0,
+        "predicted_rul": 116.7,
+        "residual": -3.3
+      },
+      {
+        "engine_id": 105,
+        "actual_rul": 100.0,
+        "predicted_rul": 79.1,
+        "residual": -20.9
+      },
+      {
+        "engine_id": 106,
+        "actual_rul": 107.0,
+        "predicted_rul": 60.7,
+        "residual": -46.3
+      },
+      {
+        "engine_id": 107,
+        "actual_rul": 41.0,
+        "predicted_rul": 98.1,
+        "residual": 57.1
+      },
+      {
+        "engine_id": 108,
+        "actual_rul": 153.0,
+        "predicted_rul": 124.9,
+        "residual": -28.1
+      },
+      {
+        "engine_id": 109,
+        "actual_rul": 126.0,
+        "predicted_rul": 123.1,
+        "residual": -2.9
+      },
+      {
+        "engine_id": 110,
+        "actual_rul": 59.0,
+        "predicted_rul": 46.3,
+        "residual": -12.7
+      },
+      {
+        "engine_id": 111,
+        "actual_rul": 18.0,
+        "predicted_rul": 24.4,
+        "residual": 6.4
+      },
+      {
+        "engine_id": 112,
+        "actual_rul": 66.0,
+        "predicted_rul": 102.9,
+        "residual": 36.9
+      },
+      {
+        "engine_id": 113,
+        "actual_rul": 13.0,
+        "predicted_rul": 18.4,
+        "residual": 5.4
+      },
+      {
+        "engine_id": 114,
+        "actual_rul": 14.0,
+        "predicted_rul": 28.3,
+        "residual": 14.3
+      },
+      {
+        "engine_id": 115,
+        "actual_rul": 139.0,
+        "predicted_rul": 114.1,
+        "residual": -24.9
+      },
+      {
+        "engine_id": 116,
+        "actual_rul": 13.0,
+        "predicted_rul": 16.9,
+        "residual": 3.9
+      },
+      {
+        "engine_id": 117,
+        "actual_rul": 75.0,
+        "predicted_rul": 118.3,
+        "residual": 43.3
+      },
+      {
+        "engine_id": 118,
+        "actual_rul": 8.0,
+        "predicted_rul": 17.5,
+        "residual": 9.5
+      },
+      {
+        "engine_id": 119,
+        "actual_rul": 109.0,
+        "predicted_rul": 73.5,
+        "residual": -35.5
+      },
+      {
+        "engine_id": 120,
+        "actual_rul": 137.0,
+        "predicted_rul": 61.3,
+        "residual": -75.7
+      },
+      {
+        "engine_id": 121,
+        "actual_rul": 41.0,
+        "predicted_rul": 24.3,
+        "residual": -16.7
+      },
+      {
+        "engine_id": 122,
+        "actual_rul": 192.0,
+        "predicted_rul": 122.2,
+        "residual": -69.8
+      },
+      {
+        "engine_id": 123,
+        "actual_rul": 23.0,
+        "predicted_rul": 32.6,
+        "residual": 9.6
+      },
+      {
+        "engine_id": 124,
+        "actual_rul": 86.0,
+        "predicted_rul": 51.3,
+        "residual": -34.7
+      },
+      {
+        "engine_id": 125,
+        "actual_rul": 184.0,
+        "predicted_rul": 96.7,
+        "residual": -87.3
+      },
+      {
+        "engine_id": 126,
+        "actual_rul": 15.0,
+        "predicted_rul": 19.2,
+        "residual": 4.2
+      },
+      {
+        "engine_id": 127,
+        "actual_rul": 195.0,
+        "predicted_rul": 118.7,
+        "residual": -76.3
+      },
+      {
+        "engine_id": 128,
+        "actual_rul": 126.0,
+        "predicted_rul": 120.0,
+        "residual": -6.0
+      },
+      {
+        "engine_id": 129,
+        "actual_rul": 120.0,
+        "predicted_rul": 111.1,
+        "residual": -8.9
+      },
+      {
+        "engine_id": 130,
+        "actual_rul": 165.0,
+        "predicted_rul": 107.6,
+        "residual": -57.4
+      },
+      {
+        "engine_id": 131,
+        "actual_rul": 101.0,
+        "predicted_rul": 49.9,
+        "residual": -51.1
+      },
+      {
+        "engine_id": 132,
+        "actual_rul": 116.0,
+        "predicted_rul": 111.5,
+        "residual": -4.5
+      },
+      {
+        "engine_id": 133,
+        "actual_rul": 126.0,
+        "predicted_rul": 121.4,
+        "residual": -4.6
+      },
+      {
+        "engine_id": 134,
+        "actual_rul": 36.0,
+        "predicted_rul": 42.6,
+        "residual": 6.6
+      },
+      {
+        "engine_id": 135,
+        "actual_rul": 7.0,
+        "predicted_rul": 12.6,
+        "residual": 5.6
+      },
+      {
+        "engine_id": 136,
+        "actual_rul": 122.0,
+        "predicted_rul": 118.0,
+        "residual": -4.0
+      },
+      {
+        "engine_id": 137,
+        "actual_rul": 159.0,
+        "predicted_rul": 96.8,
+        "residual": -62.2
+      },
+      {
+        "engine_id": 138,
+        "actual_rul": 88.0,
+        "predicted_rul": 81.7,
+        "residual": -6.3
+      },
+      {
+        "engine_id": 139,
+        "actual_rul": 173.0,
+        "predicted_rul": 125.0,
+        "residual": -48.0
+      },
+      {
+        "engine_id": 140,
+        "actual_rul": 146.0,
+        "predicted_rul": 96.8,
+        "residual": -49.2
+      },
+      {
+        "engine_id": 141,
+        "actual_rul": 130.0,
+        "predicted_rul": 81.8,
+        "residual": -48.2
+      },
+      {
+        "engine_id": 142,
+        "actual_rul": 108.0,
+        "predicted_rul": 118.5,
+        "residual": 10.5
+      },
+      {
+        "engine_id": 143,
+        "actual_rul": 53.0,
+        "predicted_rul": 58.4,
+        "residual": 5.4
+      },
+      {
+        "engine_id": 144,
+        "actual_rul": 162.0,
+        "predicted_rul": 97.3,
+        "residual": -64.7
+      },
+      {
+        "engine_id": 145,
+        "actual_rul": 59.0,
+        "predicted_rul": 63.4,
+        "residual": 4.4
+      },
+      {
+        "engine_id": 146,
+        "actual_rul": 100.0,
+        "predicted_rul": 112.8,
+        "residual": 12.8
+      },
+      {
+        "engine_id": 147,
+        "actual_rul": 56.0,
+        "predicted_rul": 84.6,
+        "residual": 28.6
+      },
+      {
+        "engine_id": 148,
+        "actual_rul": 145.0,
+        "predicted_rul": 121.7,
+        "residual": -23.3
+      },
+      {
+        "engine_id": 149,
+        "actual_rul": 76.0,
+        "predicted_rul": 78.6,
+        "residual": 2.6
+      },
+      {
+        "engine_id": 150,
+        "actual_rul": 57.0,
+        "predicted_rul": 35.2,
+        "residual": -21.8
+      },
+      {
+        "engine_id": 151,
+        "actual_rul": 31.0,
+        "predicted_rul": 18.6,
+        "residual": -12.4
+      },
+      {
+        "engine_id": 152,
+        "actual_rul": 88.0,
+        "predicted_rul": 115.4,
+        "residual": 27.4
+      },
+      {
+        "engine_id": 153,
+        "actual_rul": 173.0,
+        "predicted_rul": 107.1,
+        "residual": -65.9
+      },
+      {
+        "engine_id": 154,
+        "actual_rul": 34.0,
+        "predicted_rul": 25.5,
+        "residual": -8.5
+      },
+      {
+        "engine_id": 155,
+        "actual_rul": 7.0,
+        "predicted_rul": 17.8,
+        "residual": 10.8
+      },
+      {
+        "engine_id": 156,
+        "actual_rul": 133.0,
+        "predicted_rul": 116.3,
+        "residual": -16.7
+      },
+      {
+        "engine_id": 157,
+        "actual_rul": 172.0,
+        "predicted_rul": 113.1,
+        "residual": -58.9
+      },
+      {
+        "engine_id": 158,
+        "actual_rul": 6.0,
+        "predicted_rul": 7.9,
+        "residual": 1.9
+      },
+      {
+        "engine_id": 159,
+        "actual_rul": 22.0,
+        "predicted_rul": 11.6,
+        "residual": -10.4
+      },
+      {
+        "engine_id": 160,
+        "actual_rul": 83.0,
+        "predicted_rul": 121.9,
+        "residual": 38.9
+      },
+      {
+        "engine_id": 161,
+        "actual_rul": 82.0,
+        "predicted_rul": 102.3,
+        "residual": 20.3
+      },
+      {
+        "engine_id": 162,
+        "actual_rul": 84.0,
+        "predicted_rul": 80.0,
+        "residual": -4.0
+      },
+      {
+        "engine_id": 163,
+        "actual_rul": 95.0,
+        "predicted_rul": 114.5,
+        "residual": 19.5
+      },
+      {
+        "engine_id": 164,
+        "actual_rul": 174.0,
+        "predicted_rul": 108.4,
+        "residual": -65.6
+      },
+      {
+        "engine_id": 165,
+        "actual_rul": 111.0,
+        "predicted_rul": 122.3,
+        "residual": 11.3
+      },
+      {
+        "engine_id": 166,
+        "actual_rul": 72.0,
+        "predicted_rul": 96.1,
+        "residual": 24.1
+      },
+      {
+        "engine_id": 167,
+        "actual_rul": 109.0,
+        "predicted_rul": 120.6,
+        "residual": 11.6
+      },
+      {
+        "engine_id": 168,
+        "actual_rul": 87.0,
+        "predicted_rul": 82.8,
+        "residual": -4.2
+      },
+      {
+        "engine_id": 169,
+        "actual_rul": 179.0,
+        "predicted_rul": 121.8,
+        "residual": -57.2
+      },
+      {
+        "engine_id": 170,
+        "actual_rul": 158.0,
+        "predicted_rul": 121.9,
+        "residual": -36.1
+      },
+      {
+        "engine_id": 171,
+        "actual_rul": 126.0,
+        "predicted_rul": 72.6,
+        "residual": -53.4
+      },
+      {
+        "engine_id": 172,
+        "actual_rul": 12.0,
+        "predicted_rul": 45.9,
+        "residual": 33.9
+      },
+      {
+        "engine_id": 173,
+        "actual_rul": 8.0,
+        "predicted_rul": 12.1,
+        "residual": 4.1
+      },
+      {
+        "engine_id": 174,
+        "actual_rul": 10.0,
+        "predicted_rul": 18.3,
+        "residual": 8.3
+      },
+      {
+        "engine_id": 175,
+        "actual_rul": 123.0,
+        "predicted_rul": 48.9,
+        "residual": -74.1
+      },
+      {
+        "engine_id": 176,
+        "actual_rul": 103.0,
+        "predicted_rul": 90.9,
+        "residual": -12.1
+      },
+      {
+        "engine_id": 177,
+        "actual_rul": 12.0,
+        "predicted_rul": 25.1,
+        "residual": 13.1
+      },
+      {
+        "engine_id": 178,
+        "actual_rul": 106.0,
+        "predicted_rul": 72.3,
+        "residual": -33.7
+      },
+      {
+        "engine_id": 179,
+        "actual_rul": 12.0,
+        "predicted_rul": 17.3,
+        "residual": 5.3
+      },
+      {
+        "engine_id": 180,
+        "actual_rul": 32.0,
+        "predicted_rul": 21.3,
+        "residual": -10.7
+      },
+      {
+        "engine_id": 181,
+        "actual_rul": 37.0,
+        "predicted_rul": 12.9,
+        "residual": -24.1
+      },
+      {
+        "engine_id": 182,
+        "actual_rul": 116.0,
+        "predicted_rul": 117.4,
+        "residual": 1.4
+      },
+      {
+        "engine_id": 183,
+        "actual_rul": 15.0,
+        "predicted_rul": 28.7,
+        "residual": 13.7
+      },
+      {
+        "engine_id": 184,
+        "actual_rul": 10.0,
+        "predicted_rul": 11.0,
+        "residual": 1.0
+      },
+      {
+        "engine_id": 185,
+        "actual_rul": 46.0,
+        "predicted_rul": 51.0,
+        "residual": 5.0
+      },
+      {
+        "engine_id": 186,
+        "actual_rul": 142.0,
+        "predicted_rul": 104.5,
+        "residual": -37.5
+      },
+      {
+        "engine_id": 187,
+        "actual_rul": 24.0,
+        "predicted_rul": 25.4,
+        "residual": 1.4
+      },
+      {
+        "engine_id": 188,
+        "actual_rul": 135.0,
+        "predicted_rul": 101.3,
+        "residual": -33.7
+      },
+      {
+        "engine_id": 189,
+        "actual_rul": 56.0,
+        "predicted_rul": 74.3,
+        "residual": 18.3
+      },
+      {
+        "engine_id": 190,
+        "actual_rul": 43.0,
+        "predicted_rul": 69.2,
+        "residual": 26.2
+      },
+      {
+        "engine_id": 191,
+        "actual_rul": 178.0,
+        "predicted_rul": 114.1,
+        "residual": -63.9
+      },
+      {
+        "engine_id": 192,
+        "actual_rul": 71.0,
+        "predicted_rul": 112.4,
+        "residual": 41.4
+      },
+      {
+        "engine_id": 193,
+        "actual_rul": 104.0,
+        "predicted_rul": 74.4,
+        "residual": -29.6
+      },
+      {
+        "engine_id": 194,
+        "actual_rul": 15.0,
+        "predicted_rul": 23.6,
+        "residual": 8.6
+      },
+      {
+        "engine_id": 195,
+        "actual_rul": 166.0,
+        "predicted_rul": 116.8,
+        "residual": -49.2
+      },
+      {
+        "engine_id": 196,
+        "actual_rul": 89.0,
+        "predicted_rul": 119.4,
+        "residual": 30.4
+      },
+      {
+        "engine_id": 197,
+        "actual_rul": 36.0,
+        "predicted_rul": 36.9,
+        "residual": 0.9
+      },
+      {
+        "engine_id": 198,
+        "actual_rul": 11.0,
+        "predicted_rul": 13.0,
+        "residual": 2.0
+      },
+      {
+        "engine_id": 199,
+        "actual_rul": 92.0,
+        "predicted_rul": 38.6,
+        "residual": -53.4
+      },
+      {
+        "engine_id": 200,
+        "actual_rul": 96.0,
+        "predicted_rul": 105.7,
+        "residual": 9.7
+      },
+      {
+        "engine_id": 201,
+        "actual_rul": 59.0,
+        "predicted_rul": 110.0,
+        "residual": 51.0
+      },
+      {
+        "engine_id": 202,
+        "actual_rul": 13.0,
+        "predicted_rul": 3.0,
+        "residual": -10.0
+      },
+      {
+        "engine_id": 203,
+        "actual_rul": 167.0,
+        "predicted_rul": 124.1,
+        "residual": -42.9
+      },
+      {
+        "engine_id": 204,
+        "actual_rul": 151.0,
+        "predicted_rul": 79.2,
+        "residual": -71.8
+      },
+      {
+        "engine_id": 205,
+        "actual_rul": 154.0,
+        "predicted_rul": 115.2,
+        "residual": -38.8
+      },
+      {
+        "engine_id": 206,
+        "actual_rul": 109.0,
+        "predicted_rul": 107.8,
+        "residual": -1.2
+      },
+      {
+        "engine_id": 207,
+        "actual_rul": 116.0,
+        "predicted_rul": 119.1,
+        "residual": 3.1
+      },
+      {
+        "engine_id": 208,
+        "actual_rul": 91.0,
+        "predicted_rul": 111.2,
+        "residual": 20.2
+      },
+      {
+        "engine_id": 209,
+        "actual_rul": 11.0,
+        "predicted_rul": 13.4,
+        "residual": 2.4
+      },
+      {
+        "engine_id": 210,
+        "actual_rul": 88.0,
+        "predicted_rul": 112.8,
+        "residual": 24.8
+      },
+      {
+        "engine_id": 211,
+        "actual_rul": 108.0,
+        "predicted_rul": 118.8,
+        "residual": 10.8
+      },
+      {
+        "engine_id": 212,
+        "actual_rul": 76.0,
+        "predicted_rul": 74.2,
+        "residual": -1.8
+      },
+      {
+        "engine_id": 213,
+        "actual_rul": 14.0,
+        "predicted_rul": 16.3,
+        "residual": 2.3
+      },
+      {
+        "engine_id": 214,
+        "actual_rul": 89.0,
+        "predicted_rul": 63.5,
+        "residual": -25.5
+      },
+      {
+        "engine_id": 215,
+        "actual_rul": 145.0,
+        "predicted_rul": 108.7,
+        "residual": -36.3
+      },
+      {
+        "engine_id": 216,
+        "actual_rul": 17.0,
+        "predicted_rul": 13.2,
+        "residual": -3.8
+      },
+      {
+        "engine_id": 217,
+        "actual_rul": 66.0,
+        "predicted_rul": 58.0,
+        "residual": -8.0
+      },
+      {
+        "engine_id": 218,
+        "actual_rul": 154.0,
+        "predicted_rul": 117.1,
+        "residual": -36.9
+      },
+      {
+        "engine_id": 219,
+        "actual_rul": 41.0,
+        "predicted_rul": 40.7,
+        "residual": -0.3
+      },
+      {
+        "engine_id": 220,
+        "actual_rul": 182.0,
+        "predicted_rul": 108.4,
+        "residual": -73.6
+      },
+      {
+        "engine_id": 221,
+        "actual_rul": 73.0,
+        "predicted_rul": 96.0,
+        "residual": 23.0
+      },
+      {
+        "engine_id": 222,
+        "actual_rul": 39.0,
+        "predicted_rul": 53.2,
+        "residual": 14.2
+      },
+      {
+        "engine_id": 223,
+        "actual_rul": 58.0,
+        "predicted_rul": 65.2,
+        "residual": 7.2
+      },
+      {
+        "engine_id": 224,
+        "actual_rul": 14.0,
+        "predicted_rul": 16.2,
+        "residual": 2.2
+      },
+      {
+        "engine_id": 225,
+        "actual_rul": 145.0,
+        "predicted_rul": 113.4,
+        "residual": -31.6
+      },
+      {
+        "engine_id": 226,
+        "actual_rul": 88.0,
+        "predicted_rul": 115.8,
+        "residual": 27.8
+      },
+      {
+        "engine_id": 227,
+        "actual_rul": 162.0,
+        "predicted_rul": 116.8,
+        "residual": -45.2
+      },
+      {
+        "engine_id": 228,
+        "actual_rul": 189.0,
+        "predicted_rul": 124.0,
+        "residual": -65.0
+      },
+      {
+        "engine_id": 229,
+        "actual_rul": 120.0,
+        "predicted_rul": 121.7,
+        "residual": 1.7
+      },
+      {
+        "engine_id": 230,
+        "actual_rul": 98.0,
+        "predicted_rul": 108.0,
+        "residual": 10.0
+      },
+      {
+        "engine_id": 231,
+        "actual_rul": 33.0,
+        "predicted_rul": 40.8,
+        "residual": 7.8
+      },
+      {
+        "engine_id": 232,
+        "actual_rul": 184.0,
+        "predicted_rul": 119.0,
+        "residual": -65.0
+      },
+      {
+        "engine_id": 233,
+        "actual_rul": 110.0,
+        "predicted_rul": 113.9,
+        "residual": 3.9
+      },
+      {
+        "engine_id": 234,
+        "actual_rul": 68.0,
+        "predicted_rul": 56.9,
+        "residual": -11.1
+      },
+      {
+        "engine_id": 235,
+        "actual_rul": 24.0,
+        "predicted_rul": 23.5,
+        "residual": -0.5
+      },
+      {
+        "engine_id": 236,
+        "actual_rul": 75.0,
+        "predicted_rul": 95.2,
+        "residual": 20.2
+      },
+      {
+        "engine_id": 237,
+        "actual_rul": 18.0,
+        "predicted_rul": 13.4,
+        "residual": -4.6
+      },
+      {
+        "engine_id": 238,
+        "actual_rul": 16.0,
+        "predicted_rul": 9.4,
+        "residual": -6.6
+      },
+      {
+        "engine_id": 239,
+        "actual_rul": 166.0,
+        "predicted_rul": 120.9,
+        "residual": -45.1
+      },
+      {
+        "engine_id": 240,
+        "actual_rul": 98.0,
+        "predicted_rul": 37.5,
+        "residual": -60.5
+      },
+      {
+        "engine_id": 241,
+        "actual_rul": 176.0,
+        "predicted_rul": 115.4,
+        "residual": -60.6
+      },
+      {
+        "engine_id": 242,
+        "actual_rul": 81.0,
+        "predicted_rul": 81.4,
+        "residual": 0.4
+      },
+      {
+        "engine_id": 243,
+        "actual_rul": 118.0,
+        "predicted_rul": 103.4,
+        "residual": -14.6
+      },
+      {
+        "engine_id": 244,
+        "actual_rul": 35.0,
+        "predicted_rul": 52.0,
+        "residual": 17.0
+      },
+      {
+        "engine_id": 245,
+        "actual_rul": 131.0,
+        "predicted_rul": 111.8,
+        "residual": -19.2
+      },
+      {
+        "engine_id": 246,
+        "actual_rul": 194.0,
+        "predicted_rul": 118.0,
+        "residual": -76.0
+      },
+      {
+        "engine_id": 247,
+        "actual_rul": 112.0,
+        "predicted_rul": 69.3,
+        "residual": -42.7
+      },
+      {
+        "engine_id": 248,
+        "actual_rul": 26.0,
+        "predicted_rul": 32.1,
+        "residual": 6.1
+      }
+    ],
+    "CNN-LSTM with Self-Attention": [
+      {
+        "engine_id": 1,
+        "actual_rul": 22.0,
+        "predicted_rul": 32.4,
+        "residual": 10.4
+      },
+      {
+        "engine_id": 2,
+        "actual_rul": 39.0,
+        "predicted_rul": 62.4,
+        "residual": 23.4
+      },
+      {
+        "engine_id": 3,
+        "actual_rul": 107.0,
+        "predicted_rul": 114.0,
+        "residual": 7.0
+      },
+      {
+        "engine_id": 4,
+        "actual_rul": 75.0,
+        "predicted_rul": 66.2,
+        "residual": -8.8
+      },
+      {
+        "engine_id": 5,
+        "actual_rul": 149.0,
+        "predicted_rul": 110.7,
+        "residual": -38.3
+      },
+      {
+        "engine_id": 6,
+        "actual_rul": 78.0,
+        "predicted_rul": 126.5,
+        "residual": 48.5
+      },
+      {
+        "engine_id": 7,
+        "actual_rul": 94.0,
+        "predicted_rul": 123.5,
+        "residual": 29.5
+      },
+      {
+        "engine_id": 8,
+        "actual_rul": 14.0,
+        "predicted_rul": 9.6,
+        "residual": -4.4
+      },
+      {
+        "engine_id": 9,
+        "actual_rul": 99.0,
+        "predicted_rul": 120.3,
+        "residual": 21.3
+      },
+      {
+        "engine_id": 10,
+        "actual_rul": 162.0,
+        "predicted_rul": 95.9,
+        "residual": -66.1
+      },
+      {
+        "engine_id": 11,
+        "actual_rul": 143.0,
+        "predicted_rul": 126.5,
+        "residual": -16.5
+      },
+      {
+        "engine_id": 12,
+        "actual_rul": 7.0,
+        "predicted_rul": 9.5,
+        "residual": 2.5
+      },
+      {
+        "engine_id": 13,
+        "actual_rul": 71.0,
+        "predicted_rul": 91.0,
+        "residual": 20.0
+      },
+      {
+        "engine_id": 14,
+        "actual_rul": 105.0,
+        "predicted_rul": 105.7,
+        "residual": 0.7
+      },
+      {
+        "engine_id": 15,
+        "actual_rul": 12.0,
+        "predicted_rul": 16.4,
+        "residual": 4.4
+      },
+      {
+        "engine_id": 16,
+        "actual_rul": 160.0,
+        "predicted_rul": 125.5,
+        "residual": -34.5
+      },
+      {
+        "engine_id": 17,
+        "actual_rul": 162.0,
+        "predicted_rul": 99.8,
+        "residual": -62.2
+      },
+      {
+        "engine_id": 18,
+        "actual_rul": 104.0,
+        "predicted_rul": 89.7,
+        "residual": -14.3
+      },
+      {
+        "engine_id": 19,
+        "actual_rul": 194.0,
+        "predicted_rul": 123.9,
+        "residual": -70.1
+      },
+      {
+        "engine_id": 20,
+        "actual_rul": 82.0,
+        "predicted_rul": 102.0,
+        "residual": 20.0
+      },
+      {
+        "engine_id": 21,
+        "actual_rul": 91.0,
+        "predicted_rul": 114.7,
+        "residual": 23.7
+      },
+      {
+        "engine_id": 22,
+        "actual_rul": 11.0,
+        "predicted_rul": 19.4,
+        "residual": 8.4
+      },
+      {
+        "engine_id": 23,
+        "actual_rul": 26.0,
+        "predicted_rul": 45.5,
+        "residual": 19.5
+      },
+      {
+        "engine_id": 24,
+        "actual_rul": 142.0,
+        "predicted_rul": 120.6,
+        "residual": -21.4
+      },
+      {
+        "engine_id": 25,
+        "actual_rul": 39.0,
+        "predicted_rul": 39.4,
+        "residual": 0.4
+      },
+      {
+        "engine_id": 26,
+        "actual_rul": 92.0,
+        "predicted_rul": 79.7,
+        "residual": -12.3
+      },
+      {
+        "engine_id": 27,
+        "actual_rul": 76.0,
+        "predicted_rul": 76.3,
+        "residual": 0.3
+      },
+      {
+        "engine_id": 28,
+        "actual_rul": 124.0,
+        "predicted_rul": 122.1,
+        "residual": -1.9
+      },
+      {
+        "engine_id": 29,
+        "actual_rul": 64.0,
+        "predicted_rul": 76.7,
+        "residual": 12.7
+      },
+      {
+        "engine_id": 30,
+        "actual_rul": 118.0,
+        "predicted_rul": 105.1,
+        "residual": -12.9
+      },
+      {
+        "engine_id": 31,
+        "actual_rul": 6.0,
+        "predicted_rul": 13.9,
+        "residual": 7.9
+      },
+      {
+        "engine_id": 32,
+        "actual_rul": 22.0,
+        "predicted_rul": 23.4,
+        "residual": 1.4
+      },
+      {
+        "engine_id": 33,
+        "actual_rul": 147.0,
+        "predicted_rul": 121.0,
+        "residual": -26.0
+      },
+      {
+        "engine_id": 34,
+        "actual_rul": 126.0,
+        "predicted_rul": 60.9,
+        "residual": -65.1
+      },
+      {
+        "engine_id": 35,
+        "actual_rul": 36.0,
+        "predicted_rul": 25.9,
+        "residual": -10.1
+      },
+      {
+        "engine_id": 36,
+        "actual_rul": 73.0,
+        "predicted_rul": 64.6,
+        "residual": -8.4
+      },
+      {
+        "engine_id": 37,
+        "actual_rul": 89.0,
+        "predicted_rul": 68.3,
+        "residual": -20.7
+      },
+      {
+        "engine_id": 38,
+        "actual_rul": 11.0,
+        "predicted_rul": 15.4,
+        "residual": 4.4
+      },
+      {
+        "engine_id": 39,
+        "actual_rul": 151.0,
+        "predicted_rul": 82.2,
+        "residual": -68.8
+      },
+      {
+        "engine_id": 40,
+        "actual_rul": 10.0,
+        "predicted_rul": 8.4,
+        "residual": -1.6
+      },
+      {
+        "engine_id": 41,
+        "actual_rul": 97.0,
+        "predicted_rul": 85.4,
+        "residual": -11.6
+      },
+      {
+        "engine_id": 42,
+        "actual_rul": 30.0,
+        "predicted_rul": 30.9,
+        "residual": 0.9
+      },
+      {
+        "engine_id": 43,
+        "actual_rul": 42.0,
+        "predicted_rul": 100.3,
+        "residual": 58.3
+      },
+      {
+        "engine_id": 44,
+        "actual_rul": 60.0,
+        "predicted_rul": 49.4,
+        "residual": -10.6
+      },
+      {
+        "engine_id": 45,
+        "actual_rul": 85.0,
+        "predicted_rul": 111.7,
+        "residual": 26.7
+      },
+      {
+        "engine_id": 46,
+        "actual_rul": 134.0,
+        "predicted_rul": 111.2,
+        "residual": -22.8
+      },
+      {
+        "engine_id": 47,
+        "actual_rul": 34.0,
+        "predicted_rul": 26.7,
+        "residual": -7.3
+      },
+      {
+        "engine_id": 48,
+        "actual_rul": 45.0,
+        "predicted_rul": 52.8,
+        "residual": 7.8
+      },
+      {
+        "engine_id": 49,
+        "actual_rul": 24.0,
+        "predicted_rul": 28.3,
+        "residual": 4.3
+      },
+      {
+        "engine_id": 50,
+        "actual_rul": 86.0,
+        "predicted_rul": 102.2,
+        "residual": 16.2
+      },
+      {
+        "engine_id": 51,
+        "actual_rul": 119.0,
+        "predicted_rul": 124.4,
+        "residual": 5.4
+      },
+      {
+        "engine_id": 52,
+        "actual_rul": 151.0,
+        "predicted_rul": 124.5,
+        "residual": -26.5
+      },
+      {
+        "engine_id": 53,
+        "actual_rul": 142.0,
+        "predicted_rul": 127.0,
+        "residual": -15.0
+      },
+      {
+        "engine_id": 54,
+        "actual_rul": 176.0,
+        "predicted_rul": 107.2,
+        "residual": -68.8
+      },
+      {
+        "engine_id": 55,
+        "actual_rul": 157.0,
+        "predicted_rul": 127.4,
+        "residual": -29.6
+      },
+      {
+        "engine_id": 56,
+        "actual_rul": 67.0,
+        "predicted_rul": 77.0,
+        "residual": 10.0
+      },
+      {
+        "engine_id": 57,
+        "actual_rul": 97.0,
+        "predicted_rul": 120.5,
+        "residual": 23.5
+      },
+      {
+        "engine_id": 58,
+        "actual_rul": 8.0,
+        "predicted_rul": 8.0,
+        "residual": -0.0
+      },
+      {
+        "engine_id": 59,
+        "actual_rul": 154.0,
+        "predicted_rul": 117.4,
+        "residual": -36.6
+      },
+      {
+        "engine_id": 60,
+        "actual_rul": 139.0,
+        "predicted_rul": 120.4,
+        "residual": -18.6
+      },
+      {
+        "engine_id": 61,
+        "actual_rul": 51.0,
+        "predicted_rul": 39.8,
+        "residual": -11.2
+      },
+      {
+        "engine_id": 62,
+        "actual_rul": 33.0,
+        "predicted_rul": 49.6,
+        "residual": 16.6
+      },
+      {
+        "engine_id": 63,
+        "actual_rul": 184.0,
+        "predicted_rul": 124.2,
+        "residual": -59.8
+      },
+      {
+        "engine_id": 64,
+        "actual_rul": 46.0,
+        "predicted_rul": 58.3,
+        "residual": 12.3
+      },
+      {
+        "engine_id": 65,
+        "actual_rul": 12.0,
+        "predicted_rul": 16.4,
+        "residual": 4.4
+      },
+      {
+        "engine_id": 66,
+        "actual_rul": 133.0,
+        "predicted_rul": 97.4,
+        "residual": -35.6
+      },
+      {
+        "engine_id": 67,
+        "actual_rul": 46.0,
+        "predicted_rul": 58.4,
+        "residual": 12.4
+      },
+      {
+        "engine_id": 68,
+        "actual_rul": 46.0,
+        "predicted_rul": 49.9,
+        "residual": 3.9
+      },
+      {
+        "engine_id": 69,
+        "actual_rul": 12.0,
+        "predicted_rul": 15.6,
+        "residual": 3.6
+      },
+      {
+        "engine_id": 70,
+        "actual_rul": 33.0,
+        "predicted_rul": 54.1,
+        "residual": 21.1
+      },
+      {
+        "engine_id": 71,
+        "actual_rul": 15.0,
+        "predicted_rul": 17.0,
+        "residual": 2.0
+      },
+      {
+        "engine_id": 72,
+        "actual_rul": 176.0,
+        "predicted_rul": 109.1,
+        "residual": -66.9
+      },
+      {
+        "engine_id": 73,
+        "actual_rul": 23.0,
+        "predicted_rul": 30.4,
+        "residual": 7.4
+      },
+      {
+        "engine_id": 74,
+        "actual_rul": 89.0,
+        "predicted_rul": 83.6,
+        "residual": -5.4
+      },
+      {
+        "engine_id": 75,
+        "actual_rul": 124.0,
+        "predicted_rul": 117.6,
+        "residual": -6.4
+      },
+      {
+        "engine_id": 76,
+        "actual_rul": 163.0,
+        "predicted_rul": 121.3,
+        "residual": -41.7
+      },
+      {
+        "engine_id": 77,
+        "actual_rul": 25.0,
+        "predicted_rul": 69.4,
+        "residual": 44.4
+      },
+      {
+        "engine_id": 78,
+        "actual_rul": 74.0,
+        "predicted_rul": 85.1,
+        "residual": 11.1
+      },
+      {
+        "engine_id": 79,
+        "actual_rul": 78.0,
+        "predicted_rul": 73.4,
+        "residual": -4.6
+      },
+      {
+        "engine_id": 80,
+        "actual_rul": 114.0,
+        "predicted_rul": 74.2,
+        "residual": -39.8
+      },
+      {
+        "engine_id": 81,
+        "actual_rul": 96.0,
+        "predicted_rul": 124.3,
+        "residual": 28.3
+      },
+      {
+        "engine_id": 82,
+        "actual_rul": 10.0,
+        "predicted_rul": 29.7,
+        "residual": 19.7
+      },
+      {
+        "engine_id": 83,
+        "actual_rul": 172.0,
+        "predicted_rul": 122.1,
+        "residual": -49.9
+      },
+      {
+        "engine_id": 84,
+        "actual_rul": 166.0,
+        "predicted_rul": 125.6,
+        "residual": -40.4
+      },
+      {
+        "engine_id": 85,
+        "actual_rul": 115.0,
+        "predicted_rul": 103.0,
+        "residual": -12.0
+      },
+      {
+        "engine_id": 86,
+        "actual_rul": 70.0,
+        "predicted_rul": 85.5,
+        "residual": 15.5
+      },
+      {
+        "engine_id": 87,
+        "actual_rul": 94.0,
+        "predicted_rul": 125.4,
+        "residual": 31.4
+      },
+      {
+        "engine_id": 88,
+        "actual_rul": 56.0,
+        "predicted_rul": 65.5,
+        "residual": 9.5
+      },
+      {
+        "engine_id": 89,
+        "actual_rul": 86.0,
+        "predicted_rul": 92.8,
+        "residual": 6.8
+      },
+      {
+        "engine_id": 90,
+        "actual_rul": 96.0,
+        "predicted_rul": 90.8,
+        "residual": -5.2
+      },
+      {
+        "engine_id": 91,
+        "actual_rul": 50.0,
+        "predicted_rul": 83.3,
+        "residual": 33.3
+      },
+      {
+        "engine_id": 92,
+        "actual_rul": 73.0,
+        "predicted_rul": 104.0,
+        "residual": 31.0
+      },
+      {
+        "engine_id": 93,
+        "actual_rul": 154.0,
+        "predicted_rul": 124.6,
+        "residual": -29.4
+      },
+      {
+        "engine_id": 94,
+        "actual_rul": 129.0,
+        "predicted_rul": 126.4,
+        "residual": -2.6
+      },
+      {
+        "engine_id": 95,
+        "actual_rul": 171.0,
+        "predicted_rul": 122.1,
+        "residual": -48.9
+      },
+      {
+        "engine_id": 96,
+        "actual_rul": 71.0,
+        "predicted_rul": 98.3,
+        "residual": 27.3
+      },
+      {
+        "engine_id": 97,
+        "actual_rul": 105.0,
+        "predicted_rul": 122.4,
+        "residual": 17.4
+      },
+      {
+        "engine_id": 98,
+        "actual_rul": 113.0,
+        "predicted_rul": 125.3,
+        "residual": 12.3
+      },
+      {
+        "engine_id": 99,
+        "actual_rul": 37.0,
+        "predicted_rul": 44.5,
+        "residual": 7.5
+      },
+      {
+        "engine_id": 100,
+        "actual_rul": 7.0,
+        "predicted_rul": 16.7,
+        "residual": 9.7
+      },
+      {
+        "engine_id": 101,
+        "actual_rul": 13.0,
+        "predicted_rul": 16.6,
+        "residual": 3.6
+      },
+      {
+        "engine_id": 102,
+        "actual_rul": 22.0,
+        "predicted_rul": 15.0,
+        "residual": -7.0
+      },
+      {
+        "engine_id": 103,
+        "actual_rul": 9.0,
+        "predicted_rul": 21.8,
+        "residual": 12.8
+      },
+      {
+        "engine_id": 104,
+        "actual_rul": 120.0,
+        "predicted_rul": 124.4,
+        "residual": 4.4
+      },
+      {
+        "engine_id": 105,
+        "actual_rul": 100.0,
+        "predicted_rul": 81.8,
+        "residual": -18.2
+      },
+      {
+        "engine_id": 106,
+        "actual_rul": 107.0,
+        "predicted_rul": 109.1,
+        "residual": 2.1
+      },
+      {
+        "engine_id": 107,
+        "actual_rul": 41.0,
+        "predicted_rul": 77.1,
+        "residual": 36.1
+      },
+      {
+        "engine_id": 108,
+        "actual_rul": 153.0,
+        "predicted_rul": 123.2,
+        "residual": -29.8
+      },
+      {
+        "engine_id": 109,
+        "actual_rul": 126.0,
+        "predicted_rul": 125.9,
+        "residual": -0.1
+      },
+      {
+        "engine_id": 110,
+        "actual_rul": 59.0,
+        "predicted_rul": 45.6,
+        "residual": -13.4
+      },
+      {
+        "engine_id": 111,
+        "actual_rul": 18.0,
+        "predicted_rul": 21.8,
+        "residual": 3.8
+      },
+      {
+        "engine_id": 112,
+        "actual_rul": 66.0,
+        "predicted_rul": 105.4,
+        "residual": 39.4
+      },
+      {
+        "engine_id": 113,
+        "actual_rul": 13.0,
+        "predicted_rul": 23.1,
+        "residual": 10.1
+      },
+      {
+        "engine_id": 114,
+        "actual_rul": 14.0,
+        "predicted_rul": 22.3,
+        "residual": 8.3
+      },
+      {
+        "engine_id": 115,
+        "actual_rul": 139.0,
+        "predicted_rul": 112.1,
+        "residual": -26.9
+      },
+      {
+        "engine_id": 116,
+        "actual_rul": 13.0,
+        "predicted_rul": 23.5,
+        "residual": 10.5
+      },
+      {
+        "engine_id": 117,
+        "actual_rul": 75.0,
+        "predicted_rul": 116.2,
+        "residual": 41.2
+      },
+      {
+        "engine_id": 118,
+        "actual_rul": 8.0,
+        "predicted_rul": 7.8,
+        "residual": -0.2
+      },
+      {
+        "engine_id": 119,
+        "actual_rul": 109.0,
+        "predicted_rul": 66.7,
+        "residual": -42.3
+      },
+      {
+        "engine_id": 120,
+        "actual_rul": 137.0,
+        "predicted_rul": 75.3,
+        "residual": -61.7
+      },
+      {
+        "engine_id": 121,
+        "actual_rul": 41.0,
+        "predicted_rul": 32.3,
+        "residual": -8.7
+      },
+      {
+        "engine_id": 122,
+        "actual_rul": 192.0,
+        "predicted_rul": 123.8,
+        "residual": -68.2
+      },
+      {
+        "engine_id": 123,
+        "actual_rul": 23.0,
+        "predicted_rul": 28.7,
+        "residual": 5.7
+      },
+      {
+        "engine_id": 124,
+        "actual_rul": 86.0,
+        "predicted_rul": 59.1,
+        "residual": -26.9
+      },
+      {
+        "engine_id": 125,
+        "actual_rul": 184.0,
+        "predicted_rul": 91.4,
+        "residual": -92.6
+      },
+      {
+        "engine_id": 126,
+        "actual_rul": 15.0,
+        "predicted_rul": 22.2,
+        "residual": 7.2
+      },
+      {
+        "engine_id": 127,
+        "actual_rul": 195.0,
+        "predicted_rul": 117.3,
+        "residual": -77.7
+      },
+      {
+        "engine_id": 128,
+        "actual_rul": 126.0,
+        "predicted_rul": 125.8,
+        "residual": -0.2
+      },
+      {
+        "engine_id": 129,
+        "actual_rul": 120.0,
+        "predicted_rul": 125.6,
+        "residual": 5.6
+      },
+      {
+        "engine_id": 130,
+        "actual_rul": 165.0,
+        "predicted_rul": 101.4,
+        "residual": -63.6
+      },
+      {
+        "engine_id": 131,
+        "actual_rul": 101.0,
+        "predicted_rul": 85.6,
+        "residual": -15.4
+      },
+      {
+        "engine_id": 132,
+        "actual_rul": 116.0,
+        "predicted_rul": 99.4,
+        "residual": -16.6
+      },
+      {
+        "engine_id": 133,
+        "actual_rul": 126.0,
+        "predicted_rul": 127.0,
+        "residual": 1.0
+      },
+      {
+        "engine_id": 134,
+        "actual_rul": 36.0,
+        "predicted_rul": 38.1,
+        "residual": 2.1
+      },
+      {
+        "engine_id": 135,
+        "actual_rul": 7.0,
+        "predicted_rul": 8.7,
+        "residual": 1.7
+      },
+      {
+        "engine_id": 136,
+        "actual_rul": 122.0,
+        "predicted_rul": 127.2,
+        "residual": 5.2
+      },
+      {
+        "engine_id": 137,
+        "actual_rul": 159.0,
+        "predicted_rul": 97.7,
+        "residual": -61.3
+      },
+      {
+        "engine_id": 138,
+        "actual_rul": 88.0,
+        "predicted_rul": 97.9,
+        "residual": 9.9
+      },
+      {
+        "engine_id": 139,
+        "actual_rul": 173.0,
+        "predicted_rul": 122.6,
+        "residual": -50.4
+      },
+      {
+        "engine_id": 140,
+        "actual_rul": 146.0,
+        "predicted_rul": 114.7,
+        "residual": -31.3
+      },
+      {
+        "engine_id": 141,
+        "actual_rul": 130.0,
+        "predicted_rul": 120.6,
+        "residual": -9.4
+      },
+      {
+        "engine_id": 142,
+        "actual_rul": 108.0,
+        "predicted_rul": 126.2,
+        "residual": 18.2
+      },
+      {
+        "engine_id": 143,
+        "actual_rul": 53.0,
+        "predicted_rul": 78.5,
+        "residual": 25.5
+      },
+      {
+        "engine_id": 144,
+        "actual_rul": 162.0,
+        "predicted_rul": 99.5,
+        "residual": -62.5
+      },
+      {
+        "engine_id": 145,
+        "actual_rul": 59.0,
+        "predicted_rul": 82.9,
+        "residual": 23.9
+      },
+      {
+        "engine_id": 146,
+        "actual_rul": 100.0,
+        "predicted_rul": 126.1,
+        "residual": 26.1
+      },
+      {
+        "engine_id": 147,
+        "actual_rul": 56.0,
+        "predicted_rul": 79.8,
+        "residual": 23.8
+      },
+      {
+        "engine_id": 148,
+        "actual_rul": 145.0,
+        "predicted_rul": 122.5,
+        "residual": -22.5
+      },
+      {
+        "engine_id": 149,
+        "actual_rul": 76.0,
+        "predicted_rul": 105.5,
+        "residual": 29.5
+      },
+      {
+        "engine_id": 150,
+        "actual_rul": 57.0,
+        "predicted_rul": 37.9,
+        "residual": -19.1
+      },
+      {
+        "engine_id": 151,
+        "actual_rul": 31.0,
+        "predicted_rul": 18.7,
+        "residual": -12.3
+      },
+      {
+        "engine_id": 152,
+        "actual_rul": 88.0,
+        "predicted_rul": 112.1,
+        "residual": 24.1
+      },
+      {
+        "engine_id": 153,
+        "actual_rul": 173.0,
+        "predicted_rul": 125.3,
+        "residual": -47.7
+      },
+      {
+        "engine_id": 154,
+        "actual_rul": 34.0,
+        "predicted_rul": 41.3,
+        "residual": 7.3
+      },
+      {
+        "engine_id": 155,
+        "actual_rul": 7.0,
+        "predicted_rul": 22.9,
+        "residual": 15.9
+      },
+      {
+        "engine_id": 156,
+        "actual_rul": 133.0,
+        "predicted_rul": 124.1,
+        "residual": -8.9
+      },
+      {
+        "engine_id": 157,
+        "actual_rul": 172.0,
+        "predicted_rul": 112.7,
+        "residual": -59.3
+      },
+      {
+        "engine_id": 158,
+        "actual_rul": 6.0,
+        "predicted_rul": 17.3,
+        "residual": 11.3
+      },
+      {
+        "engine_id": 159,
+        "actual_rul": 22.0,
+        "predicted_rul": 28.4,
+        "residual": 6.4
+      },
+      {
+        "engine_id": 160,
+        "actual_rul": 83.0,
+        "predicted_rul": 122.1,
+        "residual": 39.1
+      },
+      {
+        "engine_id": 161,
+        "actual_rul": 82.0,
+        "predicted_rul": 89.7,
+        "residual": 7.7
+      },
+      {
+        "engine_id": 162,
+        "actual_rul": 84.0,
+        "predicted_rul": 111.1,
+        "residual": 27.1
+      },
+      {
+        "engine_id": 163,
+        "actual_rul": 95.0,
+        "predicted_rul": 121.3,
+        "residual": 26.3
+      },
+      {
+        "engine_id": 164,
+        "actual_rul": 174.0,
+        "predicted_rul": 100.5,
+        "residual": -73.5
+      },
+      {
+        "engine_id": 165,
+        "actual_rul": 111.0,
+        "predicted_rul": 107.7,
+        "residual": -3.3
+      },
+      {
+        "engine_id": 166,
+        "actual_rul": 72.0,
+        "predicted_rul": 123.9,
+        "residual": 51.9
+      },
+      {
+        "engine_id": 167,
+        "actual_rul": 109.0,
+        "predicted_rul": 125.7,
+        "residual": 16.7
+      },
+      {
+        "engine_id": 168,
+        "actual_rul": 87.0,
+        "predicted_rul": 103.2,
+        "residual": 16.2
+      },
+      {
+        "engine_id": 169,
+        "actual_rul": 179.0,
+        "predicted_rul": 124.4,
+        "residual": -54.6
+      },
+      {
+        "engine_id": 170,
+        "actual_rul": 158.0,
+        "predicted_rul": 125.3,
+        "residual": -32.7
+      },
+      {
+        "engine_id": 171,
+        "actual_rul": 126.0,
+        "predicted_rul": 89.8,
+        "residual": -36.2
+      },
+      {
+        "engine_id": 172,
+        "actual_rul": 12.0,
+        "predicted_rul": 41.0,
+        "residual": 29.0
+      },
+      {
+        "engine_id": 173,
+        "actual_rul": 8.0,
+        "predicted_rul": 13.4,
+        "residual": 5.4
+      },
+      {
+        "engine_id": 174,
+        "actual_rul": 10.0,
+        "predicted_rul": 26.6,
+        "residual": 16.6
+      },
+      {
+        "engine_id": 175,
+        "actual_rul": 123.0,
+        "predicted_rul": 76.9,
+        "residual": -46.1
+      },
+      {
+        "engine_id": 176,
+        "actual_rul": 103.0,
+        "predicted_rul": 103.5,
+        "residual": 0.5
+      },
+      {
+        "engine_id": 177,
+        "actual_rul": 12.0,
+        "predicted_rul": 29.9,
+        "residual": 17.9
+      },
+      {
+        "engine_id": 178,
+        "actual_rul": 106.0,
+        "predicted_rul": 111.8,
+        "residual": 5.8
+      },
+      {
+        "engine_id": 179,
+        "actual_rul": 12.0,
+        "predicted_rul": 16.5,
+        "residual": 4.5
+      },
+      {
+        "engine_id": 180,
+        "actual_rul": 32.0,
+        "predicted_rul": 20.3,
+        "residual": -11.7
+      },
+      {
+        "engine_id": 181,
+        "actual_rul": 37.0,
+        "predicted_rul": 21.0,
+        "residual": -16.0
+      },
+      {
+        "engine_id": 182,
+        "actual_rul": 116.0,
+        "predicted_rul": 121.1,
+        "residual": 5.1
+      },
+      {
+        "engine_id": 183,
+        "actual_rul": 15.0,
+        "predicted_rul": 37.8,
+        "residual": 22.8
+      },
+      {
+        "engine_id": 184,
+        "actual_rul": 10.0,
+        "predicted_rul": 13.8,
+        "residual": 3.8
+      },
+      {
+        "engine_id": 185,
+        "actual_rul": 46.0,
+        "predicted_rul": 48.8,
+        "residual": 2.8
+      },
+      {
+        "engine_id": 186,
+        "actual_rul": 142.0,
+        "predicted_rul": 96.9,
+        "residual": -45.1
+      },
+      {
+        "engine_id": 187,
+        "actual_rul": 24.0,
+        "predicted_rul": 52.8,
+        "residual": 28.8
+      },
+      {
+        "engine_id": 188,
+        "actual_rul": 135.0,
+        "predicted_rul": 81.9,
+        "residual": -53.1
+      },
+      {
+        "engine_id": 189,
+        "actual_rul": 56.0,
+        "predicted_rul": 109.8,
+        "residual": 53.8
+      },
+      {
+        "engine_id": 190,
+        "actual_rul": 43.0,
+        "predicted_rul": 48.7,
+        "residual": 5.7
+      },
+      {
+        "engine_id": 191,
+        "actual_rul": 178.0,
+        "predicted_rul": 123.9,
+        "residual": -54.1
+      },
+      {
+        "engine_id": 192,
+        "actual_rul": 71.0,
+        "predicted_rul": 104.2,
+        "residual": 33.2
+      },
+      {
+        "engine_id": 193,
+        "actual_rul": 104.0,
+        "predicted_rul": 116.7,
+        "residual": 12.7
+      },
+      {
+        "engine_id": 194,
+        "actual_rul": 15.0,
+        "predicted_rul": 24.1,
+        "residual": 9.1
+      },
+      {
+        "engine_id": 195,
+        "actual_rul": 166.0,
+        "predicted_rul": 113.3,
+        "residual": -52.7
+      },
+      {
+        "engine_id": 196,
+        "actual_rul": 89.0,
+        "predicted_rul": 125.1,
+        "residual": 36.1
+      },
+      {
+        "engine_id": 197,
+        "actual_rul": 36.0,
+        "predicted_rul": 53.8,
+        "residual": 17.8
+      },
+      {
+        "engine_id": 198,
+        "actual_rul": 11.0,
+        "predicted_rul": 29.9,
+        "residual": 18.9
+      },
+      {
+        "engine_id": 199,
+        "actual_rul": 92.0,
+        "predicted_rul": 70.3,
+        "residual": -21.7
+      },
+      {
+        "engine_id": 200,
+        "actual_rul": 96.0,
+        "predicted_rul": 83.8,
+        "residual": -12.2
+      },
+      {
+        "engine_id": 201,
+        "actual_rul": 59.0,
+        "predicted_rul": 109.4,
+        "residual": 50.4
+      },
+      {
+        "engine_id": 202,
+        "actual_rul": 13.0,
+        "predicted_rul": 8.0,
+        "residual": -5.0
+      },
+      {
+        "engine_id": 203,
+        "actual_rul": 167.0,
+        "predicted_rul": 125.4,
+        "residual": -41.6
+      },
+      {
+        "engine_id": 204,
+        "actual_rul": 151.0,
+        "predicted_rul": 115.1,
+        "residual": -35.9
+      },
+      {
+        "engine_id": 205,
+        "actual_rul": 154.0,
+        "predicted_rul": 120.2,
+        "residual": -33.8
+      },
+      {
+        "engine_id": 206,
+        "actual_rul": 109.0,
+        "predicted_rul": 121.4,
+        "residual": 12.4
+      },
+      {
+        "engine_id": 207,
+        "actual_rul": 116.0,
+        "predicted_rul": 121.3,
+        "residual": 5.3
+      },
+      {
+        "engine_id": 208,
+        "actual_rul": 91.0,
+        "predicted_rul": 98.0,
+        "residual": 7.0
+      },
+      {
+        "engine_id": 209,
+        "actual_rul": 11.0,
+        "predicted_rul": 20.1,
+        "residual": 9.1
+      },
+      {
+        "engine_id": 210,
+        "actual_rul": 88.0,
+        "predicted_rul": 106.2,
+        "residual": 18.2
+      },
+      {
+        "engine_id": 211,
+        "actual_rul": 108.0,
+        "predicted_rul": 119.0,
+        "residual": 11.0
+      },
+      {
+        "engine_id": 212,
+        "actual_rul": 76.0,
+        "predicted_rul": 71.0,
+        "residual": -5.0
+      },
+      {
+        "engine_id": 213,
+        "actual_rul": 14.0,
+        "predicted_rul": 28.9,
+        "residual": 14.9
+      },
+      {
+        "engine_id": 214,
+        "actual_rul": 89.0,
+        "predicted_rul": 76.2,
+        "residual": -12.8
+      },
+      {
+        "engine_id": 215,
+        "actual_rul": 145.0,
+        "predicted_rul": 119.2,
+        "residual": -25.8
+      },
+      {
+        "engine_id": 216,
+        "actual_rul": 17.0,
+        "predicted_rul": 21.6,
+        "residual": 4.6
+      },
+      {
+        "engine_id": 217,
+        "actual_rul": 66.0,
+        "predicted_rul": 94.1,
+        "residual": 28.1
+      },
+      {
+        "engine_id": 218,
+        "actual_rul": 154.0,
+        "predicted_rul": 125.1,
+        "residual": -28.9
+      },
+      {
+        "engine_id": 219,
+        "actual_rul": 41.0,
+        "predicted_rul": 88.8,
+        "residual": 47.8
+      },
+      {
+        "engine_id": 220,
+        "actual_rul": 182.0,
+        "predicted_rul": 126.6,
+        "residual": -55.4
+      },
+      {
+        "engine_id": 221,
+        "actual_rul": 73.0,
+        "predicted_rul": 103.1,
+        "residual": 30.1
+      },
+      {
+        "engine_id": 222,
+        "actual_rul": 39.0,
+        "predicted_rul": 39.6,
+        "residual": 0.6
+      },
+      {
+        "engine_id": 223,
+        "actual_rul": 58.0,
+        "predicted_rul": 68.5,
+        "residual": 10.5
+      },
+      {
+        "engine_id": 224,
+        "actual_rul": 14.0,
+        "predicted_rul": 21.5,
+        "residual": 7.5
+      },
+      {
+        "engine_id": 225,
+        "actual_rul": 145.0,
+        "predicted_rul": 123.4,
+        "residual": -21.6
+      },
+      {
+        "engine_id": 226,
+        "actual_rul": 88.0,
+        "predicted_rul": 116.3,
+        "residual": 28.3
+      },
+      {
+        "engine_id": 227,
+        "actual_rul": 162.0,
+        "predicted_rul": 126.9,
+        "residual": -35.1
+      },
+      {
+        "engine_id": 228,
+        "actual_rul": 189.0,
+        "predicted_rul": 125.2,
+        "residual": -63.8
+      },
+      {
+        "engine_id": 229,
+        "actual_rul": 120.0,
+        "predicted_rul": 118.8,
+        "residual": -1.2
+      },
+      {
+        "engine_id": 230,
+        "actual_rul": 98.0,
+        "predicted_rul": 113.1,
+        "residual": 15.1
+      },
+      {
+        "engine_id": 231,
+        "actual_rul": 33.0,
+        "predicted_rul": 26.5,
+        "residual": -6.5
+      },
+      {
+        "engine_id": 232,
+        "actual_rul": 184.0,
+        "predicted_rul": 126.2,
+        "residual": -57.8
+      },
+      {
+        "engine_id": 233,
+        "actual_rul": 110.0,
+        "predicted_rul": 116.8,
+        "residual": 6.8
+      },
+      {
+        "engine_id": 234,
+        "actual_rul": 68.0,
+        "predicted_rul": 49.8,
+        "residual": -18.2
+      },
+      {
+        "engine_id": 235,
+        "actual_rul": 24.0,
+        "predicted_rul": 22.8,
+        "residual": -1.2
+      },
+      {
+        "engine_id": 236,
+        "actual_rul": 75.0,
+        "predicted_rul": 103.4,
+        "residual": 28.4
+      },
+      {
+        "engine_id": 237,
+        "actual_rul": 18.0,
+        "predicted_rul": 22.8,
+        "residual": 4.8
+      },
+      {
+        "engine_id": 238,
+        "actual_rul": 16.0,
+        "predicted_rul": 11.5,
+        "residual": -4.5
+      },
+      {
+        "engine_id": 239,
+        "actual_rul": 166.0,
+        "predicted_rul": 123.5,
+        "residual": -42.5
+      },
+      {
+        "engine_id": 240,
+        "actual_rul": 98.0,
+        "predicted_rul": 37.6,
+        "residual": -60.4
+      },
+      {
+        "engine_id": 241,
+        "actual_rul": 176.0,
+        "predicted_rul": 124.1,
+        "residual": -51.9
+      },
+      {
+        "engine_id": 242,
+        "actual_rul": 81.0,
+        "predicted_rul": 96.9,
+        "residual": 15.9
+      },
+      {
+        "engine_id": 243,
+        "actual_rul": 118.0,
+        "predicted_rul": 95.1,
+        "residual": -22.9
+      },
+      {
+        "engine_id": 244,
+        "actual_rul": 35.0,
+        "predicted_rul": 49.7,
+        "residual": 14.7
+      },
+      {
+        "engine_id": 245,
+        "actual_rul": 131.0,
+        "predicted_rul": 126.7,
+        "residual": -4.3
+      },
+      {
+        "engine_id": 246,
+        "actual_rul": 194.0,
+        "predicted_rul": 123.5,
+        "residual": -70.5
+      },
+      {
+        "engine_id": 247,
+        "actual_rul": 112.0,
+        "predicted_rul": 97.0,
+        "residual": -15.0
+      },
+      {
+        "engine_id": 248,
+        "actual_rul": 26.0,
+        "predicted_rul": 28.9,
+        "residual": 2.9
+      }
+    ],
+    "XGBoost": [
+      {
+        "engine_id": 1,
+        "actual_rul": 22.0,
+        "predicted_rul": 29.5,
+        "residual": 7.5
+      },
+      {
+        "engine_id": 2,
+        "actual_rul": 39.0,
+        "predicted_rul": 96.1,
+        "residual": 57.1
+      },
+      {
+        "engine_id": 3,
+        "actual_rul": 107.0,
+        "predicted_rul": 102.6,
+        "residual": -4.4
+      },
+      {
+        "engine_id": 4,
+        "actual_rul": 75.0,
+        "predicted_rul": 102.4,
+        "residual": 27.4
+      },
+      {
+        "engine_id": 5,
+        "actual_rul": 149.0,
+        "predicted_rul": 94.0,
+        "residual": -55.0
+      },
+      {
+        "engine_id": 6,
+        "actual_rul": 78.0,
+        "predicted_rul": 110.6,
+        "residual": 32.6
+      },
+      {
+        "engine_id": 7,
+        "actual_rul": 94.0,
+        "predicted_rul": 90.7,
+        "residual": -3.3
+      },
+      {
+        "engine_id": 8,
+        "actual_rul": 14.0,
+        "predicted_rul": 8.9,
+        "residual": -5.1
+      },
+      {
+        "engine_id": 9,
+        "actual_rul": 99.0,
+        "predicted_rul": 102.8,
+        "residual": 3.8
+      },
+      {
+        "engine_id": 10,
+        "actual_rul": 162.0,
+        "predicted_rul": 123.4,
+        "residual": -38.6
+      },
+      {
+        "engine_id": 11,
+        "actual_rul": 143.0,
+        "predicted_rul": 124.6,
+        "residual": -18.4
+      },
+      {
+        "engine_id": 12,
+        "actual_rul": 7.0,
+        "predicted_rul": 14.6,
+        "residual": 7.6
+      },
+      {
+        "engine_id": 13,
+        "actual_rul": 71.0,
+        "predicted_rul": 76.7,
+        "residual": 5.7
+      },
+      {
+        "engine_id": 14,
+        "actual_rul": 105.0,
+        "predicted_rul": 113.2,
+        "residual": 8.2
+      },
+      {
+        "engine_id": 15,
+        "actual_rul": 12.0,
+        "predicted_rul": 22.6,
+        "residual": 10.6
+      },
+      {
+        "engine_id": 16,
+        "actual_rul": 160.0,
+        "predicted_rul": 115.0,
+        "residual": -45.0
+      },
+      {
+        "engine_id": 17,
+        "actual_rul": 162.0,
+        "predicted_rul": 112.3,
+        "residual": -49.7
+      },
+      {
+        "engine_id": 18,
+        "actual_rul": 104.0,
+        "predicted_rul": 92.1,
+        "residual": -11.9
+      },
+      {
+        "engine_id": 19,
+        "actual_rul": 194.0,
+        "predicted_rul": 125.9,
+        "residual": -68.1
+      },
+      {
+        "engine_id": 20,
+        "actual_rul": 82.0,
+        "predicted_rul": 88.4,
+        "residual": 6.4
+      },
+      {
+        "engine_id": 21,
+        "actual_rul": 91.0,
+        "predicted_rul": 109.3,
+        "residual": 18.3
+      },
+      {
+        "engine_id": 22,
+        "actual_rul": 11.0,
+        "predicted_rul": 24.3,
+        "residual": 13.3
+      },
+      {
+        "engine_id": 23,
+        "actual_rul": 26.0,
+        "predicted_rul": 51.8,
+        "residual": 25.8
+      },
+      {
+        "engine_id": 24,
+        "actual_rul": 142.0,
+        "predicted_rul": 112.1,
+        "residual": -29.9
+      },
+      {
+        "engine_id": 25,
+        "actual_rul": 39.0,
+        "predicted_rul": 42.4,
+        "residual": 3.4
+      },
+      {
+        "engine_id": 26,
+        "actual_rul": 92.0,
+        "predicted_rul": 100.4,
+        "residual": 8.4
+      },
+      {
+        "engine_id": 27,
+        "actual_rul": 76.0,
+        "predicted_rul": 81.5,
+        "residual": 5.5
+      },
+      {
+        "engine_id": 28,
+        "actual_rul": 124.0,
+        "predicted_rul": 120.7,
+        "residual": -3.3
+      },
+      {
+        "engine_id": 29,
+        "actual_rul": 64.0,
+        "predicted_rul": 69.4,
+        "residual": 5.4
+      },
+      {
+        "engine_id": 30,
+        "actual_rul": 118.0,
+        "predicted_rul": 105.9,
+        "residual": -12.1
+      },
+      {
+        "engine_id": 31,
+        "actual_rul": 6.0,
+        "predicted_rul": 11.8,
+        "residual": 5.8
+      },
+      {
+        "engine_id": 32,
+        "actual_rul": 22.0,
+        "predicted_rul": 28.9,
+        "residual": 6.9
+      },
+      {
+        "engine_id": 33,
+        "actual_rul": 147.0,
+        "predicted_rul": 120.1,
+        "residual": -26.9
+      },
+      {
+        "engine_id": 34,
+        "actual_rul": 126.0,
+        "predicted_rul": 100.3,
+        "residual": -25.7
+      },
+      {
+        "engine_id": 35,
+        "actual_rul": 36.0,
+        "predicted_rul": 22.4,
+        "residual": -13.6
+      },
+      {
+        "engine_id": 36,
+        "actual_rul": 73.0,
+        "predicted_rul": 91.0,
+        "residual": 18.0
+      },
+      {
+        "engine_id": 37,
+        "actual_rul": 89.0,
+        "predicted_rul": 76.6,
+        "residual": -12.4
+      },
+      {
+        "engine_id": 38,
+        "actual_rul": 11.0,
+        "predicted_rul": 15.6,
+        "residual": 4.6
+      },
+      {
+        "engine_id": 39,
+        "actual_rul": 151.0,
+        "predicted_rul": 100.0,
+        "residual": -51.0
+      },
+      {
+        "engine_id": 40,
+        "actual_rul": 10.0,
+        "predicted_rul": 25.3,
+        "residual": 15.3
+      },
+      {
+        "engine_id": 41,
+        "actual_rul": 97.0,
+        "predicted_rul": 87.5,
+        "residual": -9.5
+      },
+      {
+        "engine_id": 42,
+        "actual_rul": 30.0,
+        "predicted_rul": 21.8,
+        "residual": -8.2
+      },
+      {
+        "engine_id": 43,
+        "actual_rul": 42.0,
+        "predicted_rul": 86.7,
+        "residual": 44.7
+      },
+      {
+        "engine_id": 44,
+        "actual_rul": 60.0,
+        "predicted_rul": 34.3,
+        "residual": -25.7
+      },
+      {
+        "engine_id": 45,
+        "actual_rul": 85.0,
+        "predicted_rul": 92.4,
+        "residual": 7.4
+      },
+      {
+        "engine_id": 46,
+        "actual_rul": 134.0,
+        "predicted_rul": 103.3,
+        "residual": -30.7
+      },
+      {
+        "engine_id": 47,
+        "actual_rul": 34.0,
+        "predicted_rul": 36.0,
+        "residual": 2.0
+      },
+      {
+        "engine_id": 48,
+        "actual_rul": 45.0,
+        "predicted_rul": 59.0,
+        "residual": 14.0
+      },
+      {
+        "engine_id": 49,
+        "actual_rul": 24.0,
+        "predicted_rul": 32.0,
+        "residual": 8.0
+      },
+      {
+        "engine_id": 50,
+        "actual_rul": 86.0,
+        "predicted_rul": 121.1,
+        "residual": 35.1
+      },
+      {
+        "engine_id": 51,
+        "actual_rul": 119.0,
+        "predicted_rul": 122.1,
+        "residual": 3.1
+      },
+      {
+        "engine_id": 52,
+        "actual_rul": 151.0,
+        "predicted_rul": 122.5,
+        "residual": -28.5
+      },
+      {
+        "engine_id": 53,
+        "actual_rul": 142.0,
+        "predicted_rul": 120.6,
+        "residual": -21.4
+      },
+      {
+        "engine_id": 54,
+        "actual_rul": 176.0,
+        "predicted_rul": 76.4,
+        "residual": -99.6
+      },
+      {
+        "engine_id": 55,
+        "actual_rul": 157.0,
+        "predicted_rul": 115.3,
+        "residual": -41.7
+      },
+      {
+        "engine_id": 56,
+        "actual_rul": 67.0,
+        "predicted_rul": 115.7,
+        "residual": 48.7
+      },
+      {
+        "engine_id": 57,
+        "actual_rul": 97.0,
+        "predicted_rul": 121.0,
+        "residual": 24.0
+      },
+      {
+        "engine_id": 58,
+        "actual_rul": 8.0,
+        "predicted_rul": 7.4,
+        "residual": -0.6
+      },
+      {
+        "engine_id": 59,
+        "actual_rul": 154.0,
+        "predicted_rul": 117.0,
+        "residual": -37.0
+      },
+      {
+        "engine_id": 60,
+        "actual_rul": 139.0,
+        "predicted_rul": 103.6,
+        "residual": -35.4
+      },
+      {
+        "engine_id": 61,
+        "actual_rul": 51.0,
+        "predicted_rul": 25.7,
+        "residual": -25.3
+      },
+      {
+        "engine_id": 62,
+        "actual_rul": 33.0,
+        "predicted_rul": 46.4,
+        "residual": 13.4
+      },
+      {
+        "engine_id": 63,
+        "actual_rul": 184.0,
+        "predicted_rul": 116.0,
+        "residual": -68.0
+      },
+      {
+        "engine_id": 64,
+        "actual_rul": 46.0,
+        "predicted_rul": 50.3,
+        "residual": 4.3
+      },
+      {
+        "engine_id": 65,
+        "actual_rul": 12.0,
+        "predicted_rul": 38.3,
+        "residual": 26.3
+      },
+      {
+        "engine_id": 66,
+        "actual_rul": 133.0,
+        "predicted_rul": 101.6,
+        "residual": -31.4
+      },
+      {
+        "engine_id": 67,
+        "actual_rul": 46.0,
+        "predicted_rul": 66.9,
+        "residual": 20.9
+      },
+      {
+        "engine_id": 68,
+        "actual_rul": 46.0,
+        "predicted_rul": 38.6,
+        "residual": -7.4
+      },
+      {
+        "engine_id": 69,
+        "actual_rul": 12.0,
+        "predicted_rul": 16.9,
+        "residual": 4.9
+      },
+      {
+        "engine_id": 70,
+        "actual_rul": 33.0,
+        "predicted_rul": 40.3,
+        "residual": 7.3
+      },
+      {
+        "engine_id": 71,
+        "actual_rul": 15.0,
+        "predicted_rul": 22.6,
+        "residual": 7.6
+      },
+      {
+        "engine_id": 72,
+        "actual_rul": 176.0,
+        "predicted_rul": 120.8,
+        "residual": -55.2
+      },
+      {
+        "engine_id": 73,
+        "actual_rul": 23.0,
+        "predicted_rul": 25.0,
+        "residual": 2.0
+      },
+      {
+        "engine_id": 74,
+        "actual_rul": 89.0,
+        "predicted_rul": 117.9,
+        "residual": 28.9
+      },
+      {
+        "engine_id": 75,
+        "actual_rul": 124.0,
+        "predicted_rul": 99.9,
+        "residual": -24.1
+      },
+      {
+        "engine_id": 76,
+        "actual_rul": 163.0,
+        "predicted_rul": 121.8,
+        "residual": -41.2
+      },
+      {
+        "engine_id": 77,
+        "actual_rul": 25.0,
+        "predicted_rul": 93.5,
+        "residual": 68.5
+      },
+      {
+        "engine_id": 78,
+        "actual_rul": 74.0,
+        "predicted_rul": 100.0,
+        "residual": 26.0
+      },
+      {
+        "engine_id": 79,
+        "actual_rul": 78.0,
+        "predicted_rul": 110.7,
+        "residual": 32.7
+      },
+      {
+        "engine_id": 80,
+        "actual_rul": 114.0,
+        "predicted_rul": 78.0,
+        "residual": -36.0
+      },
+      {
+        "engine_id": 81,
+        "actual_rul": 96.0,
+        "predicted_rul": 113.5,
+        "residual": 17.5
+      },
+      {
+        "engine_id": 82,
+        "actual_rul": 10.0,
+        "predicted_rul": 34.2,
+        "residual": 24.2
+      },
+      {
+        "engine_id": 83,
+        "actual_rul": 172.0,
+        "predicted_rul": 96.2,
+        "residual": -75.8
+      },
+      {
+        "engine_id": 84,
+        "actual_rul": 166.0,
+        "predicted_rul": 115.5,
+        "residual": -50.5
+      },
+      {
+        "engine_id": 85,
+        "actual_rul": 115.0,
+        "predicted_rul": 120.4,
+        "residual": 5.4
+      },
+      {
+        "engine_id": 86,
+        "actual_rul": 70.0,
+        "predicted_rul": 53.5,
+        "residual": -16.5
+      },
+      {
+        "engine_id": 87,
+        "actual_rul": 94.0,
+        "predicted_rul": 112.2,
+        "residual": 18.2
+      },
+      {
+        "engine_id": 88,
+        "actual_rul": 56.0,
+        "predicted_rul": 101.8,
+        "residual": 45.8
+      },
+      {
+        "engine_id": 89,
+        "actual_rul": 86.0,
+        "predicted_rul": 83.3,
+        "residual": -2.7
+      },
+      {
+        "engine_id": 90,
+        "actual_rul": 96.0,
+        "predicted_rul": 91.3,
+        "residual": -4.7
+      },
+      {
+        "engine_id": 91,
+        "actual_rul": 50.0,
+        "predicted_rul": 50.0,
+        "residual": -0.0
+      },
+      {
+        "engine_id": 92,
+        "actual_rul": 73.0,
+        "predicted_rul": 92.4,
+        "residual": 19.4
+      },
+      {
+        "engine_id": 93,
+        "actual_rul": 154.0,
+        "predicted_rul": 120.3,
+        "residual": -33.7
+      },
+      {
+        "engine_id": 94,
+        "actual_rul": 129.0,
+        "predicted_rul": 112.6,
+        "residual": -16.4
+      },
+      {
+        "engine_id": 95,
+        "actual_rul": 171.0,
+        "predicted_rul": 94.4,
+        "residual": -76.6
+      },
+      {
+        "engine_id": 96,
+        "actual_rul": 71.0,
+        "predicted_rul": 92.7,
+        "residual": 21.7
+      },
+      {
+        "engine_id": 97,
+        "actual_rul": 105.0,
+        "predicted_rul": 88.5,
+        "residual": -16.5
+      },
+      {
+        "engine_id": 98,
+        "actual_rul": 113.0,
+        "predicted_rul": 106.8,
+        "residual": -6.2
+      },
+      {
+        "engine_id": 99,
+        "actual_rul": 37.0,
+        "predicted_rul": 61.4,
+        "residual": 24.4
+      },
+      {
+        "engine_id": 100,
+        "actual_rul": 7.0,
+        "predicted_rul": 15.2,
+        "residual": 8.2
+      },
+      {
+        "engine_id": 101,
+        "actual_rul": 13.0,
+        "predicted_rul": 9.3,
+        "residual": -3.7
+      },
+      {
+        "engine_id": 102,
+        "actual_rul": 22.0,
+        "predicted_rul": 25.6,
+        "residual": 3.6
+      },
+      {
+        "engine_id": 103,
+        "actual_rul": 9.0,
+        "predicted_rul": 28.5,
+        "residual": 19.5
+      },
+      {
+        "engine_id": 104,
+        "actual_rul": 120.0,
+        "predicted_rul": 123.1,
+        "residual": 3.1
+      },
+      {
+        "engine_id": 105,
+        "actual_rul": 100.0,
+        "predicted_rul": 66.6,
+        "residual": -33.4
+      },
+      {
+        "engine_id": 106,
+        "actual_rul": 107.0,
+        "predicted_rul": 85.3,
+        "residual": -21.7
+      },
+      {
+        "engine_id": 107,
+        "actual_rul": 41.0,
+        "predicted_rul": 94.7,
+        "residual": 53.7
+      },
+      {
+        "engine_id": 108,
+        "actual_rul": 153.0,
+        "predicted_rul": 117.9,
+        "residual": -35.1
+      },
+      {
+        "engine_id": 109,
+        "actual_rul": 126.0,
+        "predicted_rul": 121.6,
+        "residual": -4.4
+      },
+      {
+        "engine_id": 110,
+        "actual_rul": 59.0,
+        "predicted_rul": 49.5,
+        "residual": -9.5
+      },
+      {
+        "engine_id": 111,
+        "actual_rul": 18.0,
+        "predicted_rul": 20.8,
+        "residual": 2.8
+      },
+      {
+        "engine_id": 112,
+        "actual_rul": 66.0,
+        "predicted_rul": 97.5,
+        "residual": 31.5
+      },
+      {
+        "engine_id": 113,
+        "actual_rul": 13.0,
+        "predicted_rul": 27.5,
+        "residual": 14.5
+      },
+      {
+        "engine_id": 114,
+        "actual_rul": 14.0,
+        "predicted_rul": 21.3,
+        "residual": 7.3
+      },
+      {
+        "engine_id": 115,
+        "actual_rul": 139.0,
+        "predicted_rul": 114.5,
+        "residual": -24.5
+      },
+      {
+        "engine_id": 116,
+        "actual_rul": 13.0,
+        "predicted_rul": 25.6,
+        "residual": 12.6
+      },
+      {
+        "engine_id": 117,
+        "actual_rul": 75.0,
+        "predicted_rul": 117.0,
+        "residual": 42.0
+      },
+      {
+        "engine_id": 118,
+        "actual_rul": 8.0,
+        "predicted_rul": 12.1,
+        "residual": 4.1
+      },
+      {
+        "engine_id": 119,
+        "actual_rul": 109.0,
+        "predicted_rul": 65.7,
+        "residual": -43.3
+      },
+      {
+        "engine_id": 120,
+        "actual_rul": 137.0,
+        "predicted_rul": 103.5,
+        "residual": -33.5
+      },
+      {
+        "engine_id": 121,
+        "actual_rul": 41.0,
+        "predicted_rul": 25.8,
+        "residual": -15.2
+      },
+      {
+        "engine_id": 122,
+        "actual_rul": 192.0,
+        "predicted_rul": 123.2,
+        "residual": -68.8
+      },
+      {
+        "engine_id": 123,
+        "actual_rul": 23.0,
+        "predicted_rul": 31.6,
+        "residual": 8.6
+      },
+      {
+        "engine_id": 124,
+        "actual_rul": 86.0,
+        "predicted_rul": 55.2,
+        "residual": -30.8
+      },
+      {
+        "engine_id": 125,
+        "actual_rul": 184.0,
+        "predicted_rul": 113.1,
+        "residual": -70.9
+      },
+      {
+        "engine_id": 126,
+        "actual_rul": 15.0,
+        "predicted_rul": 17.3,
+        "residual": 2.3
+      },
+      {
+        "engine_id": 127,
+        "actual_rul": 195.0,
+        "predicted_rul": 114.2,
+        "residual": -80.8
+      },
+      {
+        "engine_id": 128,
+        "actual_rul": 126.0,
+        "predicted_rul": 117.3,
+        "residual": -8.7
+      },
+      {
+        "engine_id": 129,
+        "actual_rul": 120.0,
+        "predicted_rul": 108.2,
+        "residual": -11.8
+      },
+      {
+        "engine_id": 130,
+        "actual_rul": 165.0,
+        "predicted_rul": 83.2,
+        "residual": -81.8
+      },
+      {
+        "engine_id": 131,
+        "actual_rul": 101.0,
+        "predicted_rul": 104.1,
+        "residual": 3.1
+      },
+      {
+        "engine_id": 132,
+        "actual_rul": 116.0,
+        "predicted_rul": 100.2,
+        "residual": -15.8
+      },
+      {
+        "engine_id": 133,
+        "actual_rul": 126.0,
+        "predicted_rul": 123.4,
+        "residual": -2.6
+      },
+      {
+        "engine_id": 134,
+        "actual_rul": 36.0,
+        "predicted_rul": 64.6,
+        "residual": 28.6
+      },
+      {
+        "engine_id": 135,
+        "actual_rul": 7.0,
+        "predicted_rul": 8.7,
+        "residual": 1.7
+      },
+      {
+        "engine_id": 136,
+        "actual_rul": 122.0,
+        "predicted_rul": 105.1,
+        "residual": -16.9
+      },
+      {
+        "engine_id": 137,
+        "actual_rul": 159.0,
+        "predicted_rul": 120.8,
+        "residual": -38.2
+      },
+      {
+        "engine_id": 138,
+        "actual_rul": 88.0,
+        "predicted_rul": 63.1,
+        "residual": -24.9
+      },
+      {
+        "engine_id": 139,
+        "actual_rul": 173.0,
+        "predicted_rul": 114.2,
+        "residual": -58.8
+      },
+      {
+        "engine_id": 140,
+        "actual_rul": 146.0,
+        "predicted_rul": 110.7,
+        "residual": -35.3
+      },
+      {
+        "engine_id": 141,
+        "actual_rul": 130.0,
+        "predicted_rul": 125.0,
+        "residual": -5.0
+      },
+      {
+        "engine_id": 142,
+        "actual_rul": 108.0,
+        "predicted_rul": 121.4,
+        "residual": 13.4
+      },
+      {
+        "engine_id": 143,
+        "actual_rul": 53.0,
+        "predicted_rul": 52.4,
+        "residual": -0.6
+      },
+      {
+        "engine_id": 144,
+        "actual_rul": 162.0,
+        "predicted_rul": 120.0,
+        "residual": -42.0
+      },
+      {
+        "engine_id": 145,
+        "actual_rul": 59.0,
+        "predicted_rul": 79.2,
+        "residual": 20.2
+      },
+      {
+        "engine_id": 146,
+        "actual_rul": 100.0,
+        "predicted_rul": 119.7,
+        "residual": 19.7
+      },
+      {
+        "engine_id": 147,
+        "actual_rul": 56.0,
+        "predicted_rul": 78.8,
+        "residual": 22.8
+      },
+      {
+        "engine_id": 148,
+        "actual_rul": 145.0,
+        "predicted_rul": 103.5,
+        "residual": -41.5
+      },
+      {
+        "engine_id": 149,
+        "actual_rul": 76.0,
+        "predicted_rul": 74.7,
+        "residual": -1.3
+      },
+      {
+        "engine_id": 150,
+        "actual_rul": 57.0,
+        "predicted_rul": 47.2,
+        "residual": -9.8
+      },
+      {
+        "engine_id": 151,
+        "actual_rul": 31.0,
+        "predicted_rul": 18.8,
+        "residual": -12.2
+      },
+      {
+        "engine_id": 152,
+        "actual_rul": 88.0,
+        "predicted_rul": 104.7,
+        "residual": 16.7
+      },
+      {
+        "engine_id": 153,
+        "actual_rul": 173.0,
+        "predicted_rul": 92.8,
+        "residual": -80.2
+      },
+      {
+        "engine_id": 154,
+        "actual_rul": 34.0,
+        "predicted_rul": 41.8,
+        "residual": 7.8
+      },
+      {
+        "engine_id": 155,
+        "actual_rul": 7.0,
+        "predicted_rul": 21.8,
+        "residual": 14.8
+      },
+      {
+        "engine_id": 156,
+        "actual_rul": 133.0,
+        "predicted_rul": 87.5,
+        "residual": -45.5
+      },
+      {
+        "engine_id": 157,
+        "actual_rul": 172.0,
+        "predicted_rul": 119.9,
+        "residual": -52.1
+      },
+      {
+        "engine_id": 158,
+        "actual_rul": 6.0,
+        "predicted_rul": 19.3,
+        "residual": 13.3
+      },
+      {
+        "engine_id": 159,
+        "actual_rul": 22.0,
+        "predicted_rul": 16.6,
+        "residual": -5.4
+      },
+      {
+        "engine_id": 160,
+        "actual_rul": 83.0,
+        "predicted_rul": 117.6,
+        "residual": 34.6
+      },
+      {
+        "engine_id": 161,
+        "actual_rul": 82.0,
+        "predicted_rul": 102.0,
+        "residual": 20.0
+      },
+      {
+        "engine_id": 162,
+        "actual_rul": 84.0,
+        "predicted_rul": 79.1,
+        "residual": -4.9
+      },
+      {
+        "engine_id": 163,
+        "actual_rul": 95.0,
+        "predicted_rul": 99.6,
+        "residual": 4.6
+      },
+      {
+        "engine_id": 164,
+        "actual_rul": 174.0,
+        "predicted_rul": 114.5,
+        "residual": -59.5
+      },
+      {
+        "engine_id": 165,
+        "actual_rul": 111.0,
+        "predicted_rul": 122.0,
+        "residual": 11.0
+      },
+      {
+        "engine_id": 166,
+        "actual_rul": 72.0,
+        "predicted_rul": 101.0,
+        "residual": 29.0
+      },
+      {
+        "engine_id": 167,
+        "actual_rul": 109.0,
+        "predicted_rul": 120.4,
+        "residual": 11.4
+      },
+      {
+        "engine_id": 168,
+        "actual_rul": 87.0,
+        "predicted_rul": 87.7,
+        "residual": 0.7
+      },
+      {
+        "engine_id": 169,
+        "actual_rul": 179.0,
+        "predicted_rul": 119.3,
+        "residual": -59.7
+      },
+      {
+        "engine_id": 170,
+        "actual_rul": 158.0,
+        "predicted_rul": 127.6,
+        "residual": -30.4
+      },
+      {
+        "engine_id": 171,
+        "actual_rul": 126.0,
+        "predicted_rul": 81.4,
+        "residual": -44.6
+      },
+      {
+        "engine_id": 172,
+        "actual_rul": 12.0,
+        "predicted_rul": 30.1,
+        "residual": 18.1
+      },
+      {
+        "engine_id": 173,
+        "actual_rul": 8.0,
+        "predicted_rul": 22.7,
+        "residual": 14.7
+      },
+      {
+        "engine_id": 174,
+        "actual_rul": 10.0,
+        "predicted_rul": 22.3,
+        "residual": 12.3
+      },
+      {
+        "engine_id": 175,
+        "actual_rul": 123.0,
+        "predicted_rul": 60.7,
+        "residual": -62.3
+      },
+      {
+        "engine_id": 176,
+        "actual_rul": 103.0,
+        "predicted_rul": 85.5,
+        "residual": -17.5
+      },
+      {
+        "engine_id": 177,
+        "actual_rul": 12.0,
+        "predicted_rul": 30.1,
+        "residual": 18.1
+      },
+      {
+        "engine_id": 178,
+        "actual_rul": 106.0,
+        "predicted_rul": 99.0,
+        "residual": -7.0
+      },
+      {
+        "engine_id": 179,
+        "actual_rul": 12.0,
+        "predicted_rul": 17.2,
+        "residual": 5.2
+      },
+      {
+        "engine_id": 180,
+        "actual_rul": 32.0,
+        "predicted_rul": 25.5,
+        "residual": -6.5
+      },
+      {
+        "engine_id": 181,
+        "actual_rul": 37.0,
+        "predicted_rul": 19.7,
+        "residual": -17.3
+      },
+      {
+        "engine_id": 182,
+        "actual_rul": 116.0,
+        "predicted_rul": 116.8,
+        "residual": 0.8
+      },
+      {
+        "engine_id": 183,
+        "actual_rul": 15.0,
+        "predicted_rul": 27.8,
+        "residual": 12.8
+      },
+      {
+        "engine_id": 184,
+        "actual_rul": 10.0,
+        "predicted_rul": 16.2,
+        "residual": 6.2
+      },
+      {
+        "engine_id": 185,
+        "actual_rul": 46.0,
+        "predicted_rul": 95.0,
+        "residual": 49.0
+      },
+      {
+        "engine_id": 186,
+        "actual_rul": 142.0,
+        "predicted_rul": 110.0,
+        "residual": -32.0
+      },
+      {
+        "engine_id": 187,
+        "actual_rul": 24.0,
+        "predicted_rul": 46.4,
+        "residual": 22.4
+      },
+      {
+        "engine_id": 188,
+        "actual_rul": 135.0,
+        "predicted_rul": 76.8,
+        "residual": -58.2
+      },
+      {
+        "engine_id": 189,
+        "actual_rul": 56.0,
+        "predicted_rul": 104.4,
+        "residual": 48.4
+      },
+      {
+        "engine_id": 190,
+        "actual_rul": 43.0,
+        "predicted_rul": 78.7,
+        "residual": 35.7
+      },
+      {
+        "engine_id": 191,
+        "actual_rul": 178.0,
+        "predicted_rul": 120.6,
+        "residual": -57.4
+      },
+      {
+        "engine_id": 192,
+        "actual_rul": 71.0,
+        "predicted_rul": 86.2,
+        "residual": 15.2
+      },
+      {
+        "engine_id": 193,
+        "actual_rul": 104.0,
+        "predicted_rul": 95.6,
+        "residual": -8.4
+      },
+      {
+        "engine_id": 194,
+        "actual_rul": 15.0,
+        "predicted_rul": 30.8,
+        "residual": 15.8
+      },
+      {
+        "engine_id": 195,
+        "actual_rul": 166.0,
+        "predicted_rul": 121.4,
+        "residual": -44.6
+      },
+      {
+        "engine_id": 196,
+        "actual_rul": 89.0,
+        "predicted_rul": 105.1,
+        "residual": 16.1
+      },
+      {
+        "engine_id": 197,
+        "actual_rul": 36.0,
+        "predicted_rul": 49.9,
+        "residual": 13.9
+      },
+      {
+        "engine_id": 198,
+        "actual_rul": 11.0,
+        "predicted_rul": 24.3,
+        "residual": 13.3
+      },
+      {
+        "engine_id": 199,
+        "actual_rul": 92.0,
+        "predicted_rul": 57.4,
+        "residual": -34.6
+      },
+      {
+        "engine_id": 200,
+        "actual_rul": 96.0,
+        "predicted_rul": 94.9,
+        "residual": -1.1
+      },
+      {
+        "engine_id": 201,
+        "actual_rul": 59.0,
+        "predicted_rul": 96.0,
+        "residual": 37.0
+      },
+      {
+        "engine_id": 202,
+        "actual_rul": 13.0,
+        "predicted_rul": 10.2,
+        "residual": -2.8
+      },
+      {
+        "engine_id": 203,
+        "actual_rul": 167.0,
+        "predicted_rul": 124.6,
+        "residual": -42.4
+      },
+      {
+        "engine_id": 204,
+        "actual_rul": 151.0,
+        "predicted_rul": 80.3,
+        "residual": -70.7
+      },
+      {
+        "engine_id": 205,
+        "actual_rul": 154.0,
+        "predicted_rul": 96.9,
+        "residual": -57.1
+      },
+      {
+        "engine_id": 206,
+        "actual_rul": 109.0,
+        "predicted_rul": 101.3,
+        "residual": -7.7
+      },
+      {
+        "engine_id": 207,
+        "actual_rul": 116.0,
+        "predicted_rul": 115.3,
+        "residual": -0.7
+      },
+      {
+        "engine_id": 208,
+        "actual_rul": 91.0,
+        "predicted_rul": 94.7,
+        "residual": 3.7
+      },
+      {
+        "engine_id": 209,
+        "actual_rul": 11.0,
+        "predicted_rul": 18.5,
+        "residual": 7.5
+      },
+      {
+        "engine_id": 210,
+        "actual_rul": 88.0,
+        "predicted_rul": 98.3,
+        "residual": 10.3
+      },
+      {
+        "engine_id": 211,
+        "actual_rul": 108.0,
+        "predicted_rul": 118.7,
+        "residual": 10.7
+      },
+      {
+        "engine_id": 212,
+        "actual_rul": 76.0,
+        "predicted_rul": 72.5,
+        "residual": -3.5
+      },
+      {
+        "engine_id": 213,
+        "actual_rul": 14.0,
+        "predicted_rul": 20.8,
+        "residual": 6.8
+      },
+      {
+        "engine_id": 214,
+        "actual_rul": 89.0,
+        "predicted_rul": 93.5,
+        "residual": 4.5
+      },
+      {
+        "engine_id": 215,
+        "actual_rul": 145.0,
+        "predicted_rul": 121.2,
+        "residual": -23.8
+      },
+      {
+        "engine_id": 216,
+        "actual_rul": 17.0,
+        "predicted_rul": 15.9,
+        "residual": -1.1
+      },
+      {
+        "engine_id": 217,
+        "actual_rul": 66.0,
+        "predicted_rul": 77.1,
+        "residual": 11.1
+      },
+      {
+        "engine_id": 218,
+        "actual_rul": 154.0,
+        "predicted_rul": 106.1,
+        "residual": -47.9
+      },
+      {
+        "engine_id": 219,
+        "actual_rul": 41.0,
+        "predicted_rul": 43.8,
+        "residual": 2.8
+      },
+      {
+        "engine_id": 220,
+        "actual_rul": 182.0,
+        "predicted_rul": 118.1,
+        "residual": -63.9
+      },
+      {
+        "engine_id": 221,
+        "actual_rul": 73.0,
+        "predicted_rul": 85.5,
+        "residual": 12.5
+      },
+      {
+        "engine_id": 222,
+        "actual_rul": 39.0,
+        "predicted_rul": 64.9,
+        "residual": 25.9
+      },
+      {
+        "engine_id": 223,
+        "actual_rul": 58.0,
+        "predicted_rul": 53.5,
+        "residual": -4.5
+      },
+      {
+        "engine_id": 224,
+        "actual_rul": 14.0,
+        "predicted_rul": 26.6,
+        "residual": 12.6
+      },
+      {
+        "engine_id": 225,
+        "actual_rul": 145.0,
+        "predicted_rul": 113.5,
+        "residual": -31.5
+      },
+      {
+        "engine_id": 226,
+        "actual_rul": 88.0,
+        "predicted_rul": 100.8,
+        "residual": 12.8
+      },
+      {
+        "engine_id": 227,
+        "actual_rul": 162.0,
+        "predicted_rul": 120.3,
+        "residual": -41.7
+      },
+      {
+        "engine_id": 228,
+        "actual_rul": 189.0,
+        "predicted_rul": 125.2,
+        "residual": -63.8
+      },
+      {
+        "engine_id": 229,
+        "actual_rul": 120.0,
+        "predicted_rul": 122.1,
+        "residual": 2.1
+      },
+      {
+        "engine_id": 230,
+        "actual_rul": 98.0,
+        "predicted_rul": 100.3,
+        "residual": 2.3
+      },
+      {
+        "engine_id": 231,
+        "actual_rul": 33.0,
+        "predicted_rul": 39.4,
+        "residual": 6.4
+      },
+      {
+        "engine_id": 232,
+        "actual_rul": 184.0,
+        "predicted_rul": 115.5,
+        "residual": -68.5
+      },
+      {
+        "engine_id": 233,
+        "actual_rul": 110.0,
+        "predicted_rul": 107.8,
+        "residual": -2.2
+      },
+      {
+        "engine_id": 234,
+        "actual_rul": 68.0,
+        "predicted_rul": 80.2,
+        "residual": 12.2
+      },
+      {
+        "engine_id": 235,
+        "actual_rul": 24.0,
+        "predicted_rul": 22.0,
+        "residual": -2.0
+      },
+      {
+        "engine_id": 236,
+        "actual_rul": 75.0,
+        "predicted_rul": 94.6,
+        "residual": 19.6
+      },
+      {
+        "engine_id": 237,
+        "actual_rul": 18.0,
+        "predicted_rul": 14.6,
+        "residual": -3.4
+      },
+      {
+        "engine_id": 238,
+        "actual_rul": 16.0,
+        "predicted_rul": 17.3,
+        "residual": 1.3
+      },
+      {
+        "engine_id": 239,
+        "actual_rul": 166.0,
+        "predicted_rul": 119.7,
+        "residual": -46.3
+      },
+      {
+        "engine_id": 240,
+        "actual_rul": 98.0,
+        "predicted_rul": 36.7,
+        "residual": -61.3
+      },
+      {
+        "engine_id": 241,
+        "actual_rul": 176.0,
+        "predicted_rul": 108.0,
+        "residual": -68.0
+      },
+      {
+        "engine_id": 242,
+        "actual_rul": 81.0,
+        "predicted_rul": 101.7,
+        "residual": 20.7
+      },
+      {
+        "engine_id": 243,
+        "actual_rul": 118.0,
+        "predicted_rul": 118.3,
+        "residual": 0.3
+      },
+      {
+        "engine_id": 244,
+        "actual_rul": 35.0,
+        "predicted_rul": 43.4,
+        "residual": 8.4
+      },
+      {
+        "engine_id": 245,
+        "actual_rul": 131.0,
+        "predicted_rul": 120.4,
+        "residual": -10.6
+      },
+      {
+        "engine_id": 246,
+        "actual_rul": 194.0,
+        "predicted_rul": 124.6,
+        "residual": -69.4
+      },
+      {
+        "engine_id": 247,
+        "actual_rul": 112.0,
+        "predicted_rul": 85.9,
+        "residual": -26.1
+      },
+      {
+        "engine_id": 248,
+        "actual_rul": 26.0,
+        "predicted_rul": 28.5,
+        "residual": 2.5
+      }
+    ],
+    "Random Forest": [
+      {
+        "engine_id": 1,
+        "actual_rul": 22.0,
+        "predicted_rul": 36.5,
+        "residual": 14.5
+      },
+      {
+        "engine_id": 2,
+        "actual_rul": 39.0,
+        "predicted_rul": 92.0,
+        "residual": 53.0
+      },
+      {
+        "engine_id": 3,
+        "actual_rul": 107.0,
+        "predicted_rul": 112.3,
+        "residual": 5.3
+      },
+      {
+        "engine_id": 4,
+        "actual_rul": 75.0,
+        "predicted_rul": 95.7,
+        "residual": 20.7
+      },
+      {
+        "engine_id": 5,
+        "actual_rul": 149.0,
+        "predicted_rul": 95.2,
+        "residual": -53.8
+      },
+      {
+        "engine_id": 6,
+        "actual_rul": 78.0,
+        "predicted_rul": 114.8,
+        "residual": 36.8
+      },
+      {
+        "engine_id": 7,
+        "actual_rul": 94.0,
+        "predicted_rul": 88.3,
+        "residual": -5.7
+      },
+      {
+        "engine_id": 8,
+        "actual_rul": 14.0,
+        "predicted_rul": 11.2,
+        "residual": -2.8
+      },
+      {
+        "engine_id": 9,
+        "actual_rul": 99.0,
+        "predicted_rul": 97.0,
+        "residual": -2.0
+      },
+      {
+        "engine_id": 10,
+        "actual_rul": 162.0,
+        "predicted_rul": 113.2,
+        "residual": -48.8
+      },
+      {
+        "engine_id": 11,
+        "actual_rul": 143.0,
+        "predicted_rul": 120.9,
+        "residual": -22.1
+      },
+      {
+        "engine_id": 12,
+        "actual_rul": 7.0,
+        "predicted_rul": 15.8,
+        "residual": 8.8
+      },
+      {
+        "engine_id": 13,
+        "actual_rul": 71.0,
+        "predicted_rul": 73.5,
+        "residual": 2.5
+      },
+      {
+        "engine_id": 14,
+        "actual_rul": 105.0,
+        "predicted_rul": 101.9,
+        "residual": -3.1
+      },
+      {
+        "engine_id": 15,
+        "actual_rul": 12.0,
+        "predicted_rul": 22.1,
+        "residual": 10.1
+      },
+      {
+        "engine_id": 16,
+        "actual_rul": 160.0,
+        "predicted_rul": 117.9,
+        "residual": -42.1
+      },
+      {
+        "engine_id": 17,
+        "actual_rul": 162.0,
+        "predicted_rul": 114.1,
+        "residual": -47.9
+      },
+      {
+        "engine_id": 18,
+        "actual_rul": 104.0,
+        "predicted_rul": 81.8,
+        "residual": -22.2
+      },
+      {
+        "engine_id": 19,
+        "actual_rul": 194.0,
+        "predicted_rul": 122.1,
+        "residual": -71.9
+      },
+      {
+        "engine_id": 20,
+        "actual_rul": 82.0,
+        "predicted_rul": 90.3,
+        "residual": 8.3
+      },
+      {
+        "engine_id": 21,
+        "actual_rul": 91.0,
+        "predicted_rul": 98.6,
+        "residual": 7.6
+      },
+      {
+        "engine_id": 22,
+        "actual_rul": 11.0,
+        "predicted_rul": 34.3,
+        "residual": 23.3
+      },
+      {
+        "engine_id": 23,
+        "actual_rul": 26.0,
+        "predicted_rul": 43.7,
+        "residual": 17.7
+      },
+      {
+        "engine_id": 24,
+        "actual_rul": 142.0,
+        "predicted_rul": 119.4,
+        "residual": -22.6
+      },
+      {
+        "engine_id": 25,
+        "actual_rul": 39.0,
+        "predicted_rul": 38.1,
+        "residual": -0.9
+      },
+      {
+        "engine_id": 26,
+        "actual_rul": 92.0,
+        "predicted_rul": 98.1,
+        "residual": 6.1
+      },
+      {
+        "engine_id": 27,
+        "actual_rul": 76.0,
+        "predicted_rul": 74.9,
+        "residual": -1.1
+      },
+      {
+        "engine_id": 28,
+        "actual_rul": 124.0,
+        "predicted_rul": 117.7,
+        "residual": -6.3
+      },
+      {
+        "engine_id": 29,
+        "actual_rul": 64.0,
+        "predicted_rul": 67.8,
+        "residual": 3.8
+      },
+      {
+        "engine_id": 30,
+        "actual_rul": 118.0,
+        "predicted_rul": 92.9,
+        "residual": -25.1
+      },
+      {
+        "engine_id": 31,
+        "actual_rul": 6.0,
+        "predicted_rul": 13.4,
+        "residual": 7.4
+      },
+      {
+        "engine_id": 32,
+        "actual_rul": 22.0,
+        "predicted_rul": 23.3,
+        "residual": 1.3
+      },
+      {
+        "engine_id": 33,
+        "actual_rul": 147.0,
+        "predicted_rul": 122.9,
+        "residual": -24.1
+      },
+      {
+        "engine_id": 34,
+        "actual_rul": 126.0,
+        "predicted_rul": 97.8,
+        "residual": -28.2
+      },
+      {
+        "engine_id": 35,
+        "actual_rul": 36.0,
+        "predicted_rul": 22.0,
+        "residual": -14.0
+      },
+      {
+        "engine_id": 36,
+        "actual_rul": 73.0,
+        "predicted_rul": 84.9,
+        "residual": 11.9
+      },
+      {
+        "engine_id": 37,
+        "actual_rul": 89.0,
+        "predicted_rul": 74.7,
+        "residual": -14.3
+      },
+      {
+        "engine_id": 38,
+        "actual_rul": 11.0,
+        "predicted_rul": 23.2,
+        "residual": 12.2
+      },
+      {
+        "engine_id": 39,
+        "actual_rul": 151.0,
+        "predicted_rul": 94.9,
+        "residual": -56.1
+      },
+      {
+        "engine_id": 40,
+        "actual_rul": 10.0,
+        "predicted_rul": 19.4,
+        "residual": 9.4
+      },
+      {
+        "engine_id": 41,
+        "actual_rul": 97.0,
+        "predicted_rul": 76.6,
+        "residual": -20.4
+      },
+      {
+        "engine_id": 42,
+        "actual_rul": 30.0,
+        "predicted_rul": 22.5,
+        "residual": -7.5
+      },
+      {
+        "engine_id": 43,
+        "actual_rul": 42.0,
+        "predicted_rul": 87.9,
+        "residual": 45.9
+      },
+      {
+        "engine_id": 44,
+        "actual_rul": 60.0,
+        "predicted_rul": 33.6,
+        "residual": -26.4
+      },
+      {
+        "engine_id": 45,
+        "actual_rul": 85.0,
+        "predicted_rul": 90.7,
+        "residual": 5.7
+      },
+      {
+        "engine_id": 46,
+        "actual_rul": 134.0,
+        "predicted_rul": 96.5,
+        "residual": -37.5
+      },
+      {
+        "engine_id": 47,
+        "actual_rul": 34.0,
+        "predicted_rul": 37.6,
+        "residual": 3.6
+      },
+      {
+        "engine_id": 48,
+        "actual_rul": 45.0,
+        "predicted_rul": 62.3,
+        "residual": 17.3
+      },
+      {
+        "engine_id": 49,
+        "actual_rul": 24.0,
+        "predicted_rul": 29.1,
+        "residual": 5.1
+      },
+      {
+        "engine_id": 50,
+        "actual_rul": 86.0,
+        "predicted_rul": 117.7,
+        "residual": 31.7
+      },
+      {
+        "engine_id": 51,
+        "actual_rul": 119.0,
+        "predicted_rul": 122.9,
+        "residual": 3.9
+      },
+      {
+        "engine_id": 52,
+        "actual_rul": 151.0,
+        "predicted_rul": 123.5,
+        "residual": -27.5
+      },
+      {
+        "engine_id": 53,
+        "actual_rul": 142.0,
+        "predicted_rul": 113.7,
+        "residual": -28.3
+      },
+      {
+        "engine_id": 54,
+        "actual_rul": 176.0,
+        "predicted_rul": 75.8,
+        "residual": -100.2
+      },
+      {
+        "engine_id": 55,
+        "actual_rul": 157.0,
+        "predicted_rul": 115.8,
+        "residual": -41.2
+      },
+      {
+        "engine_id": 56,
+        "actual_rul": 67.0,
+        "predicted_rul": 101.7,
+        "residual": 34.7
+      },
+      {
+        "engine_id": 57,
+        "actual_rul": 97.0,
+        "predicted_rul": 122.0,
+        "residual": 25.0
+      },
+      {
+        "engine_id": 58,
+        "actual_rul": 8.0,
+        "predicted_rul": 6.2,
+        "residual": -1.8
+      },
+      {
+        "engine_id": 59,
+        "actual_rul": 154.0,
+        "predicted_rul": 105.3,
+        "residual": -48.7
+      },
+      {
+        "engine_id": 60,
+        "actual_rul": 139.0,
+        "predicted_rul": 103.4,
+        "residual": -35.6
+      },
+      {
+        "engine_id": 61,
+        "actual_rul": 51.0,
+        "predicted_rul": 30.3,
+        "residual": -20.7
+      },
+      {
+        "engine_id": 62,
+        "actual_rul": 33.0,
+        "predicted_rul": 42.8,
+        "residual": 9.8
+      },
+      {
+        "engine_id": 63,
+        "actual_rul": 184.0,
+        "predicted_rul": 115.4,
+        "residual": -68.6
+      },
+      {
+        "engine_id": 64,
+        "actual_rul": 46.0,
+        "predicted_rul": 46.3,
+        "residual": 0.3
+      },
+      {
+        "engine_id": 65,
+        "actual_rul": 12.0,
+        "predicted_rul": 43.8,
+        "residual": 31.8
+      },
+      {
+        "engine_id": 66,
+        "actual_rul": 133.0,
+        "predicted_rul": 100.3,
+        "residual": -32.7
+      },
+      {
+        "engine_id": 67,
+        "actual_rul": 46.0,
+        "predicted_rul": 46.9,
+        "residual": 0.9
+      },
+      {
+        "engine_id": 68,
+        "actual_rul": 46.0,
+        "predicted_rul": 40.6,
+        "residual": -5.4
+      },
+      {
+        "engine_id": 69,
+        "actual_rul": 12.0,
+        "predicted_rul": 19.6,
+        "residual": 7.6
+      },
+      {
+        "engine_id": 70,
+        "actual_rul": 33.0,
+        "predicted_rul": 35.9,
+        "residual": 2.9
+      },
+      {
+        "engine_id": 71,
+        "actual_rul": 15.0,
+        "predicted_rul": 24.3,
+        "residual": 9.3
+      },
+      {
+        "engine_id": 72,
+        "actual_rul": 176.0,
+        "predicted_rul": 122.0,
+        "residual": -54.0
+      },
+      {
+        "engine_id": 73,
+        "actual_rul": 23.0,
+        "predicted_rul": 31.7,
+        "residual": 8.7
+      },
+      {
+        "engine_id": 74,
+        "actual_rul": 89.0,
+        "predicted_rul": 116.4,
+        "residual": 27.4
+      },
+      {
+        "engine_id": 75,
+        "actual_rul": 124.0,
+        "predicted_rul": 116.4,
+        "residual": -7.6
+      },
+      {
+        "engine_id": 76,
+        "actual_rul": 163.0,
+        "predicted_rul": 122.1,
+        "residual": -40.9
+      },
+      {
+        "engine_id": 77,
+        "actual_rul": 25.0,
+        "predicted_rul": 96.0,
+        "residual": 71.0
+      },
+      {
+        "engine_id": 78,
+        "actual_rul": 74.0,
+        "predicted_rul": 104.4,
+        "residual": 30.4
+      },
+      {
+        "engine_id": 79,
+        "actual_rul": 78.0,
+        "predicted_rul": 114.8,
+        "residual": 36.8
+      },
+      {
+        "engine_id": 80,
+        "actual_rul": 114.0,
+        "predicted_rul": 79.1,
+        "residual": -34.9
+      },
+      {
+        "engine_id": 81,
+        "actual_rul": 96.0,
+        "predicted_rul": 115.7,
+        "residual": 19.7
+      },
+      {
+        "engine_id": 82,
+        "actual_rul": 10.0,
+        "predicted_rul": 25.8,
+        "residual": 15.8
+      },
+      {
+        "engine_id": 83,
+        "actual_rul": 172.0,
+        "predicted_rul": 88.7,
+        "residual": -83.3
+      },
+      {
+        "engine_id": 84,
+        "actual_rul": 166.0,
+        "predicted_rul": 122.0,
+        "residual": -44.0
+      },
+      {
+        "engine_id": 85,
+        "actual_rul": 115.0,
+        "predicted_rul": 120.9,
+        "residual": 5.9
+      },
+      {
+        "engine_id": 86,
+        "actual_rul": 70.0,
+        "predicted_rul": 55.8,
+        "residual": -14.2
+      },
+      {
+        "engine_id": 87,
+        "actual_rul": 94.0,
+        "predicted_rul": 108.2,
+        "residual": 14.2
+      },
+      {
+        "engine_id": 88,
+        "actual_rul": 56.0,
+        "predicted_rul": 108.7,
+        "residual": 52.7
+      },
+      {
+        "engine_id": 89,
+        "actual_rul": 86.0,
+        "predicted_rul": 79.7,
+        "residual": -6.3
+      },
+      {
+        "engine_id": 90,
+        "actual_rul": 96.0,
+        "predicted_rul": 94.2,
+        "residual": -1.8
+      },
+      {
+        "engine_id": 91,
+        "actual_rul": 50.0,
+        "predicted_rul": 47.1,
+        "residual": -2.9
+      },
+      {
+        "engine_id": 92,
+        "actual_rul": 73.0,
+        "predicted_rul": 79.0,
+        "residual": 6.0
+      },
+      {
+        "engine_id": 93,
+        "actual_rul": 154.0,
+        "predicted_rul": 122.3,
+        "residual": -31.7
+      },
+      {
+        "engine_id": 94,
+        "actual_rul": 129.0,
+        "predicted_rul": 119.9,
+        "residual": -9.1
+      },
+      {
+        "engine_id": 95,
+        "actual_rul": 171.0,
+        "predicted_rul": 92.4,
+        "residual": -78.6
+      },
+      {
+        "engine_id": 96,
+        "actual_rul": 71.0,
+        "predicted_rul": 88.6,
+        "residual": 17.6
+      },
+      {
+        "engine_id": 97,
+        "actual_rul": 105.0,
+        "predicted_rul": 80.4,
+        "residual": -24.6
+      },
+      {
+        "engine_id": 98,
+        "actual_rul": 113.0,
+        "predicted_rul": 111.4,
+        "residual": -1.6
+      },
+      {
+        "engine_id": 99,
+        "actual_rul": 37.0,
+        "predicted_rul": 66.1,
+        "residual": 29.1
+      },
+      {
+        "engine_id": 100,
+        "actual_rul": 7.0,
+        "predicted_rul": 16.8,
+        "residual": 9.8
+      },
+      {
+        "engine_id": 101,
+        "actual_rul": 13.0,
+        "predicted_rul": 10.4,
+        "residual": -2.6
+      },
+      {
+        "engine_id": 102,
+        "actual_rul": 22.0,
+        "predicted_rul": 20.8,
+        "residual": -1.2
+      },
+      {
+        "engine_id": 103,
+        "actual_rul": 9.0,
+        "predicted_rul": 33.4,
+        "residual": 24.4
+      },
+      {
+        "engine_id": 104,
+        "actual_rul": 120.0,
+        "predicted_rul": 124.0,
+        "residual": 4.0
+      },
+      {
+        "engine_id": 105,
+        "actual_rul": 100.0,
+        "predicted_rul": 65.8,
+        "residual": -34.2
+      },
+      {
+        "engine_id": 106,
+        "actual_rul": 107.0,
+        "predicted_rul": 57.3,
+        "residual": -49.7
+      },
+      {
+        "engine_id": 107,
+        "actual_rul": 41.0,
+        "predicted_rul": 96.6,
+        "residual": 55.6
+      },
+      {
+        "engine_id": 108,
+        "actual_rul": 153.0,
+        "predicted_rul": 113.5,
+        "residual": -39.5
+      },
+      {
+        "engine_id": 109,
+        "actual_rul": 126.0,
+        "predicted_rul": 121.6,
+        "residual": -4.4
+      },
+      {
+        "engine_id": 110,
+        "actual_rul": 59.0,
+        "predicted_rul": 57.4,
+        "residual": -1.6
+      },
+      {
+        "engine_id": 111,
+        "actual_rul": 18.0,
+        "predicted_rul": 21.6,
+        "residual": 3.6
+      },
+      {
+        "engine_id": 112,
+        "actual_rul": 66.0,
+        "predicted_rul": 90.1,
+        "residual": 24.1
+      },
+      {
+        "engine_id": 113,
+        "actual_rul": 13.0,
+        "predicted_rul": 25.5,
+        "residual": 12.5
+      },
+      {
+        "engine_id": 114,
+        "actual_rul": 14.0,
+        "predicted_rul": 24.9,
+        "residual": 10.9
+      },
+      {
+        "engine_id": 115,
+        "actual_rul": 139.0,
+        "predicted_rul": 109.3,
+        "residual": -29.7
+      },
+      {
+        "engine_id": 116,
+        "actual_rul": 13.0,
+        "predicted_rul": 24.4,
+        "residual": 11.4
+      },
+      {
+        "engine_id": 117,
+        "actual_rul": 75.0,
+        "predicted_rul": 118.5,
+        "residual": 43.5
+      },
+      {
+        "engine_id": 118,
+        "actual_rul": 8.0,
+        "predicted_rul": 9.6,
+        "residual": 1.6
+      },
+      {
+        "engine_id": 119,
+        "actual_rul": 109.0,
+        "predicted_rul": 67.9,
+        "residual": -41.1
+      },
+      {
+        "engine_id": 120,
+        "actual_rul": 137.0,
+        "predicted_rul": 88.4,
+        "residual": -48.6
+      },
+      {
+        "engine_id": 121,
+        "actual_rul": 41.0,
+        "predicted_rul": 28.8,
+        "residual": -12.2
+      },
+      {
+        "engine_id": 122,
+        "actual_rul": 192.0,
+        "predicted_rul": 123.7,
+        "residual": -68.3
+      },
+      {
+        "engine_id": 123,
+        "actual_rul": 23.0,
+        "predicted_rul": 33.3,
+        "residual": 10.3
+      },
+      {
+        "engine_id": 124,
+        "actual_rul": 86.0,
+        "predicted_rul": 52.8,
+        "residual": -33.2
+      },
+      {
+        "engine_id": 125,
+        "actual_rul": 184.0,
+        "predicted_rul": 99.6,
+        "residual": -84.4
+      },
+      {
+        "engine_id": 126,
+        "actual_rul": 15.0,
+        "predicted_rul": 19.8,
+        "residual": 4.8
+      },
+      {
+        "engine_id": 127,
+        "actual_rul": 195.0,
+        "predicted_rul": 106.0,
+        "residual": -89.0
+      },
+      {
+        "engine_id": 128,
+        "actual_rul": 126.0,
+        "predicted_rul": 120.2,
+        "residual": -5.8
+      },
+      {
+        "engine_id": 129,
+        "actual_rul": 120.0,
+        "predicted_rul": 103.8,
+        "residual": -16.2
+      },
+      {
+        "engine_id": 130,
+        "actual_rul": 165.0,
+        "predicted_rul": 104.3,
+        "residual": -60.7
+      },
+      {
+        "engine_id": 131,
+        "actual_rul": 101.0,
+        "predicted_rul": 109.0,
+        "residual": 8.0
+      },
+      {
+        "engine_id": 132,
+        "actual_rul": 116.0,
+        "predicted_rul": 88.0,
+        "residual": -28.0
+      },
+      {
+        "engine_id": 133,
+        "actual_rul": 126.0,
+        "predicted_rul": 117.3,
+        "residual": -8.7
+      },
+      {
+        "engine_id": 134,
+        "actual_rul": 36.0,
+        "predicted_rul": 57.3,
+        "residual": 21.3
+      },
+      {
+        "engine_id": 135,
+        "actual_rul": 7.0,
+        "predicted_rul": 9.4,
+        "residual": 2.4
+      },
+      {
+        "engine_id": 136,
+        "actual_rul": 122.0,
+        "predicted_rul": 103.3,
+        "residual": -18.7
+      },
+      {
+        "engine_id": 137,
+        "actual_rul": 159.0,
+        "predicted_rul": 111.7,
+        "residual": -47.3
+      },
+      {
+        "engine_id": 138,
+        "actual_rul": 88.0,
+        "predicted_rul": 65.7,
+        "residual": -22.3
+      },
+      {
+        "engine_id": 139,
+        "actual_rul": 173.0,
+        "predicted_rul": 119.3,
+        "residual": -53.7
+      },
+      {
+        "engine_id": 140,
+        "actual_rul": 146.0,
+        "predicted_rul": 102.9,
+        "residual": -43.1
+      },
+      {
+        "engine_id": 141,
+        "actual_rul": 130.0,
+        "predicted_rul": 121.7,
+        "residual": -8.3
+      },
+      {
+        "engine_id": 142,
+        "actual_rul": 108.0,
+        "predicted_rul": 121.1,
+        "residual": 13.1
+      },
+      {
+        "engine_id": 143,
+        "actual_rul": 53.0,
+        "predicted_rul": 54.5,
+        "residual": 1.5
+      },
+      {
+        "engine_id": 144,
+        "actual_rul": 162.0,
+        "predicted_rul": 116.5,
+        "residual": -45.5
+      },
+      {
+        "engine_id": 145,
+        "actual_rul": 59.0,
+        "predicted_rul": 82.6,
+        "residual": 23.6
+      },
+      {
+        "engine_id": 146,
+        "actual_rul": 100.0,
+        "predicted_rul": 120.7,
+        "residual": 20.7
+      },
+      {
+        "engine_id": 147,
+        "actual_rul": 56.0,
+        "predicted_rul": 69.9,
+        "residual": 13.9
+      },
+      {
+        "engine_id": 148,
+        "actual_rul": 145.0,
+        "predicted_rul": 119.4,
+        "residual": -25.6
+      },
+      {
+        "engine_id": 149,
+        "actual_rul": 76.0,
+        "predicted_rul": 65.7,
+        "residual": -10.3
+      },
+      {
+        "engine_id": 150,
+        "actual_rul": 57.0,
+        "predicted_rul": 54.7,
+        "residual": -2.3
+      },
+      {
+        "engine_id": 151,
+        "actual_rul": 31.0,
+        "predicted_rul": 23.6,
+        "residual": -7.4
+      },
+      {
+        "engine_id": 152,
+        "actual_rul": 88.0,
+        "predicted_rul": 108.2,
+        "residual": 20.2
+      },
+      {
+        "engine_id": 153,
+        "actual_rul": 173.0,
+        "predicted_rul": 84.7,
+        "residual": -88.3
+      },
+      {
+        "engine_id": 154,
+        "actual_rul": 34.0,
+        "predicted_rul": 40.9,
+        "residual": 6.9
+      },
+      {
+        "engine_id": 155,
+        "actual_rul": 7.0,
+        "predicted_rul": 19.1,
+        "residual": 12.1
+      },
+      {
+        "engine_id": 156,
+        "actual_rul": 133.0,
+        "predicted_rul": 84.4,
+        "residual": -48.6
+      },
+      {
+        "engine_id": 157,
+        "actual_rul": 172.0,
+        "predicted_rul": 120.2,
+        "residual": -51.8
+      },
+      {
+        "engine_id": 158,
+        "actual_rul": 6.0,
+        "predicted_rul": 17.9,
+        "residual": 11.9
+      },
+      {
+        "engine_id": 159,
+        "actual_rul": 22.0,
+        "predicted_rul": 34.2,
+        "residual": 12.2
+      },
+      {
+        "engine_id": 160,
+        "actual_rul": 83.0,
+        "predicted_rul": 117.1,
+        "residual": 34.1
+      },
+      {
+        "engine_id": 161,
+        "actual_rul": 82.0,
+        "predicted_rul": 91.4,
+        "residual": 9.4
+      },
+      {
+        "engine_id": 162,
+        "actual_rul": 84.0,
+        "predicted_rul": 88.6,
+        "residual": 4.6
+      },
+      {
+        "engine_id": 163,
+        "actual_rul": 95.0,
+        "predicted_rul": 91.1,
+        "residual": -3.9
+      },
+      {
+        "engine_id": 164,
+        "actual_rul": 174.0,
+        "predicted_rul": 119.7,
+        "residual": -54.3
+      },
+      {
+        "engine_id": 165,
+        "actual_rul": 111.0,
+        "predicted_rul": 121.9,
+        "residual": 10.9
+      },
+      {
+        "engine_id": 166,
+        "actual_rul": 72.0,
+        "predicted_rul": 103.0,
+        "residual": 31.0
+      },
+      {
+        "engine_id": 167,
+        "actual_rul": 109.0,
+        "predicted_rul": 118.4,
+        "residual": 9.4
+      },
+      {
+        "engine_id": 168,
+        "actual_rul": 87.0,
+        "predicted_rul": 78.5,
+        "residual": -8.5
+      },
+      {
+        "engine_id": 169,
+        "actual_rul": 179.0,
+        "predicted_rul": 117.2,
+        "residual": -61.8
+      },
+      {
+        "engine_id": 170,
+        "actual_rul": 158.0,
+        "predicted_rul": 120.2,
+        "residual": -37.8
+      },
+      {
+        "engine_id": 171,
+        "actual_rul": 126.0,
+        "predicted_rul": 76.1,
+        "residual": -49.9
+      },
+      {
+        "engine_id": 172,
+        "actual_rul": 12.0,
+        "predicted_rul": 34.0,
+        "residual": 22.0
+      },
+      {
+        "engine_id": 173,
+        "actual_rul": 8.0,
+        "predicted_rul": 7.5,
+        "residual": -0.5
+      },
+      {
+        "engine_id": 174,
+        "actual_rul": 10.0,
+        "predicted_rul": 24.3,
+        "residual": 14.3
+      },
+      {
+        "engine_id": 175,
+        "actual_rul": 123.0,
+        "predicted_rul": 53.6,
+        "residual": -69.4
+      },
+      {
+        "engine_id": 176,
+        "actual_rul": 103.0,
+        "predicted_rul": 89.9,
+        "residual": -13.1
+      },
+      {
+        "engine_id": 177,
+        "actual_rul": 12.0,
+        "predicted_rul": 35.0,
+        "residual": 23.0
+      },
+      {
+        "engine_id": 178,
+        "actual_rul": 106.0,
+        "predicted_rul": 102.3,
+        "residual": -3.7
+      },
+      {
+        "engine_id": 179,
+        "actual_rul": 12.0,
+        "predicted_rul": 11.5,
+        "residual": -0.5
+      },
+      {
+        "engine_id": 180,
+        "actual_rul": 32.0,
+        "predicted_rul": 27.4,
+        "residual": -4.6
+      },
+      {
+        "engine_id": 181,
+        "actual_rul": 37.0,
+        "predicted_rul": 24.2,
+        "residual": -12.8
+      },
+      {
+        "engine_id": 182,
+        "actual_rul": 116.0,
+        "predicted_rul": 119.5,
+        "residual": 3.5
+      },
+      {
+        "engine_id": 183,
+        "actual_rul": 15.0,
+        "predicted_rul": 38.5,
+        "residual": 23.5
+      },
+      {
+        "engine_id": 184,
+        "actual_rul": 10.0,
+        "predicted_rul": 17.8,
+        "residual": 7.8
+      },
+      {
+        "engine_id": 185,
+        "actual_rul": 46.0,
+        "predicted_rul": 93.3,
+        "residual": 47.3
+      },
+      {
+        "engine_id": 186,
+        "actual_rul": 142.0,
+        "predicted_rul": 105.5,
+        "residual": -36.5
+      },
+      {
+        "engine_id": 187,
+        "actual_rul": 24.0,
+        "predicted_rul": 45.7,
+        "residual": 21.7
+      },
+      {
+        "engine_id": 188,
+        "actual_rul": 135.0,
+        "predicted_rul": 64.4,
+        "residual": -70.6
+      },
+      {
+        "engine_id": 189,
+        "actual_rul": 56.0,
+        "predicted_rul": 104.6,
+        "residual": 48.6
+      },
+      {
+        "engine_id": 190,
+        "actual_rul": 43.0,
+        "predicted_rul": 73.1,
+        "residual": 30.1
+      },
+      {
+        "engine_id": 191,
+        "actual_rul": 178.0,
+        "predicted_rul": 119.8,
+        "residual": -58.2
+      },
+      {
+        "engine_id": 192,
+        "actual_rul": 71.0,
+        "predicted_rul": 80.0,
+        "residual": 9.0
+      },
+      {
+        "engine_id": 193,
+        "actual_rul": 104.0,
+        "predicted_rul": 81.5,
+        "residual": -22.5
+      },
+      {
+        "engine_id": 194,
+        "actual_rul": 15.0,
+        "predicted_rul": 29.7,
+        "residual": 14.7
+      },
+      {
+        "engine_id": 195,
+        "actual_rul": 166.0,
+        "predicted_rul": 121.5,
+        "residual": -44.5
+      },
+      {
+        "engine_id": 196,
+        "actual_rul": 89.0,
+        "predicted_rul": 101.9,
+        "residual": 12.9
+      },
+      {
+        "engine_id": 197,
+        "actual_rul": 36.0,
+        "predicted_rul": 42.9,
+        "residual": 6.9
+      },
+      {
+        "engine_id": 198,
+        "actual_rul": 11.0,
+        "predicted_rul": 15.1,
+        "residual": 4.1
+      },
+      {
+        "engine_id": 199,
+        "actual_rul": 92.0,
+        "predicted_rul": 58.8,
+        "residual": -33.2
+      },
+      {
+        "engine_id": 200,
+        "actual_rul": 96.0,
+        "predicted_rul": 95.0,
+        "residual": -1.0
+      },
+      {
+        "engine_id": 201,
+        "actual_rul": 59.0,
+        "predicted_rul": 94.8,
+        "residual": 35.8
+      },
+      {
+        "engine_id": 202,
+        "actual_rul": 13.0,
+        "predicted_rul": 8.2,
+        "residual": -4.8
+      },
+      {
+        "engine_id": 203,
+        "actual_rul": 167.0,
+        "predicted_rul": 124.0,
+        "residual": -43.0
+      },
+      {
+        "engine_id": 204,
+        "actual_rul": 151.0,
+        "predicted_rul": 91.3,
+        "residual": -59.7
+      },
+      {
+        "engine_id": 205,
+        "actual_rul": 154.0,
+        "predicted_rul": 111.3,
+        "residual": -42.7
+      },
+      {
+        "engine_id": 206,
+        "actual_rul": 109.0,
+        "predicted_rul": 94.3,
+        "residual": -14.7
+      },
+      {
+        "engine_id": 207,
+        "actual_rul": 116.0,
+        "predicted_rul": 115.3,
+        "residual": -0.7
+      },
+      {
+        "engine_id": 208,
+        "actual_rul": 91.0,
+        "predicted_rul": 87.5,
+        "residual": -3.5
+      },
+      {
+        "engine_id": 209,
+        "actual_rul": 11.0,
+        "predicted_rul": 20.9,
+        "residual": 9.9
+      },
+      {
+        "engine_id": 210,
+        "actual_rul": 88.0,
+        "predicted_rul": 105.1,
+        "residual": 17.1
+      },
+      {
+        "engine_id": 211,
+        "actual_rul": 108.0,
+        "predicted_rul": 122.5,
+        "residual": 14.5
+      },
+      {
+        "engine_id": 212,
+        "actual_rul": 76.0,
+        "predicted_rul": 72.4,
+        "residual": -3.6
+      },
+      {
+        "engine_id": 213,
+        "actual_rul": 14.0,
+        "predicted_rul": 16.6,
+        "residual": 2.6
+      },
+      {
+        "engine_id": 214,
+        "actual_rul": 89.0,
+        "predicted_rul": 79.2,
+        "residual": -9.8
+      },
+      {
+        "engine_id": 215,
+        "actual_rul": 145.0,
+        "predicted_rul": 118.6,
+        "residual": -26.4
+      },
+      {
+        "engine_id": 216,
+        "actual_rul": 17.0,
+        "predicted_rul": 13.2,
+        "residual": -3.8
+      },
+      {
+        "engine_id": 217,
+        "actual_rul": 66.0,
+        "predicted_rul": 73.3,
+        "residual": 7.3
+      },
+      {
+        "engine_id": 218,
+        "actual_rul": 154.0,
+        "predicted_rul": 90.1,
+        "residual": -63.9
+      },
+      {
+        "engine_id": 219,
+        "actual_rul": 41.0,
+        "predicted_rul": 42.0,
+        "residual": 1.0
+      },
+      {
+        "engine_id": 220,
+        "actual_rul": 182.0,
+        "predicted_rul": 119.4,
+        "residual": -62.6
+      },
+      {
+        "engine_id": 221,
+        "actual_rul": 73.0,
+        "predicted_rul": 77.3,
+        "residual": 4.3
+      },
+      {
+        "engine_id": 222,
+        "actual_rul": 39.0,
+        "predicted_rul": 66.2,
+        "residual": 27.2
+      },
+      {
+        "engine_id": 223,
+        "actual_rul": 58.0,
+        "predicted_rul": 60.1,
+        "residual": 2.1
+      },
+      {
+        "engine_id": 224,
+        "actual_rul": 14.0,
+        "predicted_rul": 23.1,
+        "residual": 9.1
+      },
+      {
+        "engine_id": 225,
+        "actual_rul": 145.0,
+        "predicted_rul": 115.6,
+        "residual": -29.4
+      },
+      {
+        "engine_id": 226,
+        "actual_rul": 88.0,
+        "predicted_rul": 94.5,
+        "residual": 6.5
+      },
+      {
+        "engine_id": 227,
+        "actual_rul": 162.0,
+        "predicted_rul": 120.8,
+        "residual": -41.2
+      },
+      {
+        "engine_id": 228,
+        "actual_rul": 189.0,
+        "predicted_rul": 123.7,
+        "residual": -65.3
+      },
+      {
+        "engine_id": 229,
+        "actual_rul": 120.0,
+        "predicted_rul": 115.1,
+        "residual": -4.9
+      },
+      {
+        "engine_id": 230,
+        "actual_rul": 98.0,
+        "predicted_rul": 114.2,
+        "residual": 16.2
+      },
+      {
+        "engine_id": 231,
+        "actual_rul": 33.0,
+        "predicted_rul": 40.1,
+        "residual": 7.1
+      },
+      {
+        "engine_id": 232,
+        "actual_rul": 184.0,
+        "predicted_rul": 115.4,
+        "residual": -68.6
+      },
+      {
+        "engine_id": 233,
+        "actual_rul": 110.0,
+        "predicted_rul": 107.2,
+        "residual": -2.8
+      },
+      {
+        "engine_id": 234,
+        "actual_rul": 68.0,
+        "predicted_rul": 85.7,
+        "residual": 17.7
+      },
+      {
+        "engine_id": 235,
+        "actual_rul": 24.0,
+        "predicted_rul": 19.2,
+        "residual": -4.8
+      },
+      {
+        "engine_id": 236,
+        "actual_rul": 75.0,
+        "predicted_rul": 104.3,
+        "residual": 29.3
+      },
+      {
+        "engine_id": 237,
+        "actual_rul": 18.0,
+        "predicted_rul": 12.1,
+        "residual": -5.9
+      },
+      {
+        "engine_id": 238,
+        "actual_rul": 16.0,
+        "predicted_rul": 29.0,
+        "residual": 13.0
+      },
+      {
+        "engine_id": 239,
+        "actual_rul": 166.0,
+        "predicted_rul": 117.9,
+        "residual": -48.1
+      },
+      {
+        "engine_id": 240,
+        "actual_rul": 98.0,
+        "predicted_rul": 37.4,
+        "residual": -60.6
+      },
+      {
+        "engine_id": 241,
+        "actual_rul": 176.0,
+        "predicted_rul": 100.3,
+        "residual": -75.7
+      },
+      {
+        "engine_id": 242,
+        "actual_rul": 81.0,
+        "predicted_rul": 96.0,
+        "residual": 15.0
+      },
+      {
+        "engine_id": 243,
+        "actual_rul": 118.0,
+        "predicted_rul": 120.5,
+        "residual": 2.5
+      },
+      {
+        "engine_id": 244,
+        "actual_rul": 35.0,
+        "predicted_rul": 53.2,
+        "residual": 18.2
+      },
+      {
+        "engine_id": 245,
+        "actual_rul": 131.0,
+        "predicted_rul": 111.5,
+        "residual": -19.5
+      },
+      {
+        "engine_id": 246,
+        "actual_rul": 194.0,
+        "predicted_rul": 121.5,
+        "residual": -72.5
+      },
+      {
+        "engine_id": 247,
+        "actual_rul": 112.0,
+        "predicted_rul": 76.7,
+        "residual": -35.3
+      },
+      {
+        "engine_id": 248,
+        "actual_rul": 26.0,
+        "predicted_rul": 30.8,
+        "residual": 4.8
+      }
+    ]
+  },
+  "total_test_engines": 248
+}
